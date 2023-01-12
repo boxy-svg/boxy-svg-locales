@@ -1427,7 +1427,6 @@ spread = @todo
 staff-member = @todo
 standard-deviation = @todo
 star = @todo
-star--verb = @todo
 starred-by-me = @todo
 stars = @todo
 start-angle = @todo

@@ -1580,7 +1580,6 @@ spread = Rozkład
 staff-member = Pracownik
 standard-deviation = Odchylenie standardowe
 star = Gwiazda
-star--verb = Wyróżnij
 starred-by-me = Wyróżnione przeze mnie
 stars = Wyróżnienia
 start-angle = Kąt początkowy
