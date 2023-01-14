@@ -21,7 +21,7 @@ add-fonts = Add fonts
 add-fonts-from-disk = Add fonts from disk
 add-fonts-from-library = Add fonts from library
 add-gradient = Add gradient
-add-gradient-from-fill = Add gradient from selected objects fill
+add-gradient-from-fill = Add gradient from selected object fill
 add-gradient-from-library = Add gradient from library
 add-gradient-from-stroke = Add gradient from selected object stroke
 add-gradient-stop = Add gradient stop
@@ -1877,8 +1877,6 @@ verify-your-email-address = Verify your email address
   .detail =
     <p>Please follow the link we have sent to <strong>{$email}</strong> to verify this email address.
     <p><strong>Note</strong>: It might take up to 30 seconds for the changes to propagate.</p>
-    <p><strong>Note</strong>: You can also perform the verification by asking your organization leader to add your
-    email address to "Settings → Authentication → Users".</p>
 version = Version
   .pending = Pending
 view = View
