@@ -57,7 +57,7 @@ angle = Ángulo
   .fixed = Fijo
 anti-aliasing = Antialiasing
 app-description-short =
-  <p>El objetivo del proyecto<strong>Boxy SVG</strong> es crear la mejor herramienta para editar archivos SVG.</p>
+  <p>El objetivo del proyecto <strong>Boxy SVG</strong> es crear la mejor herramienta para editar archivos SVG.</p>
   <p>Tanto para principiantes como para <strong>diseñadores</strong> y <strong>desarrolladores web</strong> profesionales.</p>
   <p>En cualquier dispositivo y sistema operativo.</p>
 app-description-long =
@@ -1739,7 +1739,7 @@ tutorial-export =
   .description = Exporta tus ilustraciones a PNG, JPEG, GIF, WebP, SVG, SVGZ, HTML o PDF.
 type = Tipo
 typography = Tipografía
-ui = INTERFAZ DE USUARIO
+ui = UI
 unclip = Desenganche
 underline = Subraye
 undo = Deshacer
