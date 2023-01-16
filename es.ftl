@@ -737,7 +737,7 @@ font = Fuente
   .subsets = Subconjuntos
 font-category = Categoría
   .all = Todos
-  .sans-serif = Sin gracias
+  .sans-serif = Sans serif
   .serif = Serif
   .display = Mostrar
   .handwriting = Escritura a mano
@@ -855,7 +855,7 @@ hardware-acceleration-hint =
   Deberías desactivar la aceleración por hardware si estás ejecutando la aplicación dentro de una máquina virtual o en hardware antiguo y observas fallos gráficos como parpadeos o desaparición de widgets. <strong>Requiere reiniciar la aplicación.</strong>
 harmonize = Armonice
 harmonize-gradient = Armonizar degradado
-hatching = Eclosión
+hatching = Hatching
 hatching-type =
   .zigzag = Zigzag
   .grid = Rejilla
