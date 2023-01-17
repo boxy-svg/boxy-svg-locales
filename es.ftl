@@ -453,7 +453,7 @@ confirm-unlink-font-family = Unlink "{$familyName}" font family?
     Esta familia de fuentes se descargará y se incrustará en el archivo SVG actualmente editado. Esta operación puede aumentar considerablemente el tamaño de su archivo SVG.
 connect-filter-primitives = Conectar primitivas de filtro
 contact = Contacto
-contact-hint = Fill the form below or send an email to <a href="mailto:{$email}">{$email}</a>.
+contact-hint = Rellene el siguiente formulario o envíe un correo electrónico a <a href="mailto:{$email}">{$email}</a>.
 content = Contenido
 contour = Contorno
 convert = Convertir
