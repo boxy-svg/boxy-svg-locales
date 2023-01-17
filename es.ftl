@@ -8,7 +8,7 @@ activity = Actividad
 ad-hoc = Ad hoc
 add = Añadir
 add-attribute = Añadir atributo
-add-bitmap-from-library = Añadir mapa de bits desde la biblioteca
+add-bitmap-from-library = Añadir bitmap desde la biblioteca
 add-color = Dar color
 add-colors = Añadir colores
 add-colors-from-library = Añadir colores de la biblioteca
@@ -188,7 +188,7 @@ billing = Facturación
   .yearly = Anualmente
 bio = Bio
 bio-hint = Escribe una o dos frases sobre ti.
-bitmaps = Mapas de bits
+bitmaps = Bitmaps
 bleed = Sangrado
 blend-mode = Modo de mezcla
   .normal = Normalizar
@@ -1158,7 +1158,7 @@ normalize = Normalizar
   .remove-embedded-fonts = Eliminar fuentes incrustadas
   .remove-non-standard-namespaces = Eliminar espacios de nombres no estándar
   .remove-hidden-objects = Eliminar objetos ocultos
-no-bitmaps-found = No se han encontrado mapas de bits
+no-bitmaps-found = No se han encontrado bitmaps
 no-colors-found = No se han encontrado colores
 no-commands-found = No se han encontrado comandos
 no-filter-primitive-options = Esta primitiva no tiene opciones
@@ -1640,7 +1640,7 @@ tour-svg =
 tour-filters =
   .title = Efectos de filtro
   .description =
-    <p>Aplique efectos visuales a objetos vectoriales y de mapa de bits con los filtros SVG. Boxy SVG viene con <strong>más de 20 filtros preestablecidos</strong> para casos de uso común como:</p>
+    <p>Aplique efectos visuales a objetos vectoriales y de bitmaps con los filtros SVG. Boxy SVG viene con <strong>más de 20 filtros preestablecidos</strong> para casos de uso común como:</p>
     <ul>
       <li>Manipulación del color, por ejemplo, "Escala de grises", "Sepia" y "Duotono".</li>
       <li>Distorsión, por ejemplo, "Desenfoque de movimiento", "Deformación" y "Morfología".</li>
@@ -1648,7 +1648,7 @@ tour-filters =
     </ul>
     <p>Todos los filtros preestablecidos tienen descripciones <strong>fáciles de usar</strong>. Todos los cambios realizados se reproducen inmediatamente en el lienzo y pueden modificarse posteriormente en cualquier momento. Sólo tienes que abrir el panel "Composición", seleccionar un objeto con un filtro y realizar más ajustes.</p>
     <p>Puede ir un paso más allá y <strong>crear sus propios filtros</strong>. Boxy SVG proporciona una interfaz fácil de usar para crear efectos complejos a partir de primitivas de bajo nivel. Abra el panel "Defs", cree un filtro SVG personalizado, añada algunas primitivas de filtro y organícelas en un gráfico con previsualización instantánea en el lienzo.</p>
-    <p>Todos los filtros SVG son <strong>compatibles de forma nativa con la mayoría de los navegadores web</strong>. No tendrá que exportar sus ilustraciones a mapas de bits ni escribir un complejo código JavaScript para mostrarlas correctamente en un sitio web.</p>
+    <p>Todos los filtros SVG son <strong>compatibles de forma nativa con la mayoría de los navegadores web</strong>. No tendrá que exportar sus ilustraciones a bitmaps ni escribir un complejo código JavaScript para mostrarlas correctamente en un sitio web.</p>
 tour-typography =
   .title = Tipografía avanzada
   .description =
@@ -1679,10 +1679,10 @@ tour-library =
 tour-tracing =
   .title = Rastreo de imágenes
   .description =
-    <p>Boxy SVG proporciona herramientas prácticas para crear gráficos vectoriales a partir de mapas de bits, con una variedad de enfoques estilísticos.</p>
-    <p>Utilice el <strong>generador Vectorizar</strong> para crear un dibujo escalable con un aspecto lo más parecido posible al mapa de bits original. Elige un preajuste como "Escala de grises" o "Posterizado" o utiliza las opciones avanzadas que proporcionan un control total sobre la vectorización.</p>
+    <p>Boxy SVG proporciona herramientas prácticas para crear gráficos vectoriales a partir de bitmaps, con una variedad de enfoques estilísticos.</p>
+    <p>Utilice el <strong>generador Vectorizar</strong> para crear un dibujo escalable con un aspecto lo más parecido posible al bitmaps original. Elige un preajuste como "Escala de grises" o "Posterizado" o utiliza las opciones avanzadas que proporcionan un control total sobre la vectorización.</p>
     <p>Elige el <strong>generador Pixelate</strong> para crear un patrón de grandes bloques de color similar al efecto mosaico.</p>
-    <p>Utiliza el generador <strong>Triangular</strong> o <strong>Primitivizar</strong> para crear una variación escalable de la imagen de mapa de bits original con aproximación a formas geométricas básicas como triángulos.</p>
+    <p>Utiliza el generador <strong>Triangular</strong> o <strong>Primitivizar</strong> para crear una variación escalable de la imagen de bitmaps original con aproximación a formas geométricas básicas como triángulos.</p>
 tour-symbols =
   .title = Símbolos reutilizables
   .description =
