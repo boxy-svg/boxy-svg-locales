@@ -1800,10 +1800,10 @@ vectorize-tracing = Rastreando
   .enhance = Mejorar las esquinas en ángulo recto
 vectors = Vectores
 verify = Verifique
-verify-your-email-address = Verifique su dirección de correo electrónico
+verify-your-email-address = Verifique su correo electrónico
   .detail =
-    <p>Please follow the link we have sent to <strong>{$email}</strong> to verify this email address.
-    <p><strong>Note</strong>: It might take up to 30 seconds for the changes to propagate.</p>
+    <p>Por favor siga el link que hemos enviado a <strong>{$email}</strong> para verificar este correo electrónico.
+    <p><strong>Atención</strong>: puede tomar hasta 30 segundos hasta que los cambios.</p>
 version = Versión
   .pending = Pendiente
 view = Vista
