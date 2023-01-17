@@ -1692,7 +1692,7 @@ tour-symbols =
     <p>El panel "Geometría" proporciona un control avanzado sobre la caja de vista <strong>y la</strong> ventana de vista de cada símbolo.</p>
 transform = Transformar
 transform-gradient = Transformar degradado
-transform-pattern = Transformar patrone
+transform-pattern = Transformar patrón
 transform-precision = Precisión de transformación
 transform-precision-hint = Precisión, en número de decimales, que debe utilizar el atributo <code>transform</code>.
 transparency = Transparencia
