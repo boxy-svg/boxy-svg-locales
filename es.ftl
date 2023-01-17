@@ -1652,7 +1652,7 @@ tour-filters =
 tour-typography =
   .title = Tipografía avanzada
   .description =
-    <p>Crea hermosos pies de foto utilizando cualquiera de las <strong>más de 1.000 fuentes</strong> disponibles en el directorio Google Fonts o importa e incrusta archivos de fuentes <strong>WOFF, TTF y OTF</strong> desde tu disco.</p>
+    <p>Crea hermosos textos usando cualquiera de las <strong>más de 1.000 fuentes</strong> disponibles en el directorio Google Fonts o importa e incrusta archivos de fuentes <strong>WOFF, TTF y OTF</strong> desde tu disco.</p>
     <p>Controla por completo el estilo del texto. Aplica decoraciones de subrayado, tachado y sobrelineado, utiliza varias opciones de mayúsculas y minúsculas, aplica rellenos y trazos planos, degradados o con motivos.</p>
     <p>Utilice las opciones de <strong>espaciado</strong> para controlar el espacio entre todos los caracteres, palabras y líneas, o utilice la herramienta Editar para reposicionar libremente cualquier glifo.</p>
     <p>Cree <strong>texto en un trayecto</strong> con un solo clic y ajuste su desvío para encontrar la posición óptima del texto en la curva.</p>
