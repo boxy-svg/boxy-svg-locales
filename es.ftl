@@ -1681,7 +1681,7 @@ tour-tracing =
   .description =
     <p>Boxy SVG proporciona herramientas prácticas para crear gráficos vectoriales a partir de mapas de bits, con una variedad de enfoques estilísticos.</p>
     <p>Utilice el <strong>generador Vectorizar</strong> para crear un dibujo escalable con un aspecto lo más parecido posible al mapa de bits original. Elige un preajuste como "Escala de grises" o "Posterizado" o utiliza las opciones avanzadas que proporcionan un control total sobre la vectorización.</p>
-    <p>Elige el <strong>generador Pixelate</strong> para crear un motivo de grandes bloques de color similar al efecto mosaico.</p>
+    <p>Elige el <strong>generador Pixelate</strong> para crear un patrón de grandes bloques de color similar al efecto mosaico.</p>
     <p>Utiliza el generador <strong>Triangular</strong> o <strong>Primitivizar</strong> para crear una variación escalable de la imagen de mapa de bits original con aproximación a formas geométricas básicas como triángulos.</p>
 tour-symbols =
   .title = Símbolos reutilizables
