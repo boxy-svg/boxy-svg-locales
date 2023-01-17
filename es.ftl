@@ -1312,7 +1312,7 @@ preset-filters = Filtros preestablecidos
   .x-ray = Rayos X
 press = Prensa
 press-hint =
-  <p>Los activos de marketing que se proporcionan a continuación pueden reutilizarse libremente en artículos, reseñas y tutoriales de terceros en los que se hable de Boxy SVG.</p>
+  <p>Los elementos de marketing que se proporcionan a continuación pueden reutilizarse libremente en artículos, reseñas y tutoriales de terceros en los que se hable de Boxy SVG.</p>
 press-new-shortcut = Pulsar nuevo acceso directo
 pressure = Presión
 preview = Vista previa
