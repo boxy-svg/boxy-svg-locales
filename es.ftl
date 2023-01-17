@@ -1803,7 +1803,7 @@ verify = Verifique
 verify-your-email-address = Verifique su correo electrónico
   .detail =
     <p>Por favor siga el link que hemos enviado a <strong>{$email}</strong> para verificar este correo electrónico.
-    <p><strong>Atención</strong>: puede tomar hasta 30 segundos hasta que los cambios.</p>
+    <p><strong>Atención</strong>: puede tomar hasta 30 segundos hasta que los cambios se desplieguen.</p>
 version = Versión
   .pending = Pendiente
 view = Vista
