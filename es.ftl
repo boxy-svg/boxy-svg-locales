@@ -1775,7 +1775,7 @@ user-not-found = Usuario no encontrado
 users = Usuarios
 users-count-hint =
   <p>Número de usuarios pertenecientes a su organización que deberían poder utilizar la app simultáneamente.</p>
-  <p>Puede asignar y desasignar licencias libremente a los usuarios en cualquier momento introduciendo sus direcciones de correo electrónico en <a id="auth-anchor" href="?dialog=settings→auth">"Configuración → Autenticación"</a>.</p>
+  <p>Puedes libremente asignar y denegar las licencias a los usuarios en cualquier momento introduciendo sus direcciones de correo electrónico en <a id="auth-anchor" href="?dialog=settings→auth">"Configuración → Autenticación"</a>.</p>
 users-emails-hint =
   Introduzca las direcciones de correo electrónico de los usuarios pertenecientes a su organización. Para aumentar el número permitido de usuarios, ajuste su <a id="subscription-anchor" href="?dialog=settings→subscription">plan de suscripción</a>.
 value = Valor
