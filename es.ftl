@@ -421,7 +421,7 @@ confirm-delete-patterns =
     [one] objeto
    *[other] objetos
   }?
-  .detail = Eliminar un motivo también lo elimina de todos los objetos a los que se aplicó.
+  .detail = Eliminar un patrón también lo elimina de todos los objetos a los que se aplicó.
 confirm-delete-markers =
   ¿Eliminar {$markersCount ->
     [one] un marcador
