@@ -370,74 +370,74 @@ confirm-clear-history = ¿Quieres borrar el historial?
 confirm-convert-shape-to-path = ¿Convertir forma en trayecto?
   .detail = Esta forma debe ser convertida en trayecto antes de poner un texto en ella.
 confirm-delete-colors =
-  Delete {$colorsCount ->
-    [one] a color
-   *[other] {$colorsCount} colors
-  } applied to {$objectsCount} {$objectsCount ->
-    [one] object
-   *[other] objects
+  ¿Eliminar {$colorsCount ->
+    [one] un color
+   *[other] {$colorsCount} colores
+  } aplicado a {$objectsCount} {$objectsCount ->
+    [one] objeto
+   *[other] objetos
   }?
   .detail = Eliminar un color también lo elimina de todos los objetos a los que se aplicó.
 confirm-delete-comment = ¿Eliminar comentario?
   .detail = Esta acción no se puede deshacer.
 confirm-delete-files =
-  Delete {$filesCount} {$filesCount ->
-    [one] file
-   *[other] files
+  ¿Eliminar {$filesCount} {$filesCount ->
+    [one] archivo
+   *[other] archivos
   }?
   .detail = Esta acción no se puede deshacer.
 confirm-delete-filters =
-  Delete {$filtersCount ->
-    [one] a filter
-   *[other] {$filtersCount} filters
-  } applied to {$objectsCount} {$objectsCount ->
-    [one] object
-   *[other] objects
+  ¿Eliminar {$filtersCount ->
+    [one] un filter
+   *[other] {$filtersCount} filtros
+  } aplicado a {$objectsCount} {$objectsCount ->
+    [one] objeto
+   *[other] objetos
   }?
   .detail = Eliminar un filtro también lo elimina de todos los objetos a los que se aplicó.
 confirm-delete-fonts =
-  Delete {$fontsCount ->
-    [one] a font
-   *[other] {$fontsCount} fonts
-  } applied to {$objectsCount} {$objectsCount ->
-    [one] text object
-   *[other] text objects
+  ¿Eliminar {$fontsCount ->
+    [one] una fuente
+   *[other] {$fontsCount} fuentes
+  } aplicado a {$objectsCount} {$objectsCount ->
+    [one] objeto de texto
+   *[other] objetos de texto
   }?
   .detail = Eliminar una fuente también la elimina de todos los objetos de texto a los que se aplicó.
 confirm-delete-gradients =
-  Delete {$gradientsCount ->
-    [one] a gradient
-   *[other] {$gradientsCount} gradients
-  } applied to {$objectsCount} {$objectsCount ->
-    [one] object
-   *[other] objects
+  ¿Eliminar {$gradientsCount ->
+    [one] un degradado
+   *[other] {$gradientsCount} degradados
+  } aplicado a {$objectsCount} {$objectsCount ->
+    [one] objeto
+   *[other] objetos
   }?
   .detail = Eliminar un degradado también lo elimina de todos los objetos a los que se aplicó.
 confirm-delete-patterns =
-  Delete {$patternsCount ->
-    [one] a pattern
-   *[other] {$patternsCount} patterns
-  } applied to {$objectsCount} {$objectsCount ->
-    [one] object
-   *[other] objects
+  ¿Eliminar {$patternsCount ->
+    [one] un patrón
+   *[other] {$patternsCount} patrones
+  } aplicado a {$objectsCount} {$objectsCount ->
+    [one] objeto
+   *[other] objetos
   }?
   .detail = Eliminar un motivo también lo elimina de todos los objetos a los que se aplicó.
 confirm-delete-markers =
-  Delete {$markersCount ->
-    [one] a marker
-   *[other] {$markersCount} markers
-  } applied to {$objectsCount} {$objectsCount ->
-    [one] object
-   *[other] objects
+  ¿Eliminar {$markersCount ->
+    [one] un marcador
+   *[other] {$markersCount} marcadores
+  } aplicado a {$objectsCount} {$objectsCount ->
+    [one] objeto
+   *[other] objetos
   }?
   .detail = Eliminar un marcador también lo elimina de todos los objetos a los que se aplicó.
 confirm-delete-symbols =
-  Delete {$symbolsCount ->
-    [one] a symbol
-   *[other] {$symbolsCount} symbols
-  } with {$instancesCount} {$instancesCount ->
-    [one] instance
-   *[other] instances
+  ¿Eliminar {$symbolsCount ->
+    [one] un símbolo
+   *[other] {$symbolsCount} símbolos
+  } con {$instancesCount} {$instancesCount ->
+    [one] instancia
+   *[other] instancias
   }?
   .detail = Al eliminar un símbolo también se eliminan todas sus instancias.
 confirm-delete-post = ¿Eliminar puesto?
