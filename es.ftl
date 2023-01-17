@@ -171,7 +171,7 @@ authentication = Autenticación
 author = Autor
 auto = Auto
 auto-adjust-alpha = Autoajuste alfa
-auto-remove-unused-defs = Auto-remove unused defs
+auto-remove-unused-defs = Eliminación automática de definiciones no utilizadas
   .unpinned = Sin anclar
   .all = Todos
   .none = Ninguno
@@ -215,7 +215,7 @@ blur-radius = Radio de desenfoque
 bold = Negrita
 boolean-operations = Operaciones booleanas
   .unite = Únete
-  .intersect = Intersect
+  .intersect = Intersectar
   .subtract = Resta
   .exclude = Excluir
 bowing = Inclinación
@@ -270,7 +270,7 @@ change = Cambia
 change-color = Cambiar de color
 change-plan = Plan de cambio
 changed-subscription-plan = Modificación del plan de suscripción
-  .detail = Your new plan is: {$planName}
+  .detail = Tu nuevo plan es: {$planName}
 changelog = Registro de cambios
   .added = Añadido
   .improved = Mejorado
@@ -307,13 +307,13 @@ cloud-scope = Alcance
   .org = Organización
 cloud-services = Servicios en la nube
 cloud-storage-hint =
-  You can keep up to 10 GB of data in the Cloud for free. Please <a href="mailto:{$email}">contact us</a>
-  to get a personalized quote for a larger data package.
+  Puedes mantener hasta 10 GB de datos en la nube gratis. Por favor <a href="mailto:{$email}">contáctanos</a>
+  para obtener una cotización por un paquete de datos más grande.
 code = Código
 code-block = Bloque de códigos
 code-snippets = Fragmentos de código
 cog = Cog
-  .splay = Splay
+  .splay = Biselar
   .teeth = Dientes
 color = Colorear
   .auto = Auto
@@ -340,9 +340,9 @@ commands = Comandos
 comment = Comentario
 comments =
   {$count ->
-    [unknown] Comments
-    [one] {$count} comment
-   *[other] {$count} comments
+    [unknown] Comentarios
+    [one] {$count} comentario
+   *[other] {$count} comentarios
   }
 complexify = Complejizar
 complexify-path = Complejizar el trayecto
@@ -363,7 +363,7 @@ compositing = Composición
 compression = Compresión
 cone-angle = Ángulo del cono
 confirm = Confirme
-confirm-access-to-file = Confirm access to "{$fileName}"
+confirm-access-to-file = Confirmar acceso al archivo "{$fileName}"
   .detail = Para editar este archivo debe confirmar el acceso al mismo.
 confirm-clear-history = ¿Quieres borrar el historial?
   .detail = Esta acción no se puede revertir.
