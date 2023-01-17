@@ -67,7 +67,7 @@ app-description-long =
     <li>Interfaz de usuario limpia e intuitiva fuertemente inspirada en Inkscape, Sketch y Adobe Illustrator</li>
     <li>Amplio soporte para la edición en el lienzo de la geometría del objeto, transformar, pintar y otras propiedades</li>
     <li>Guardar en formatos SVG y SVGZ, exportar a PNG, JPG, WebP, PDF y HTML5</li>
-    <li>Integración con Pixabay y otras bibliotecas con millones de fotos de archivo y recursos vectoriales gratuitos.</li>
+    <li>Integración con Pixabay y otras bibliotecas con millones de fotos de archivo y recursos vectoriales gratuitos</li>
     <li>Integración de Google Fonts con cientos de fuentes gratuitas</li>
     <li>Atajos de teclado configurables para más de 100 comandos</li>
     <li>Guías manuales, guías inteligentes y rejilla</li>
