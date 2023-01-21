@@ -207,12 +207,12 @@ blend-mode = Mischmodus
   .saturation = Sättigung
   .color = Farbe
   .luminosity = Leuchtkraft
-  .isolate = Isolieren Sie
+  .isolate = Isolieren
 blob = Blob
 blog = Blog
 blur-delta = Unschärfe-Delta
 blur-radius = Unschärferadius
-bold = Kühn
+bold = Fett
 boolean-operations = Boolesche Operationen
   .unite = Vereinen
   .intersect = Schnittmenge
@@ -339,8 +339,8 @@ command = Befehl
 commands = Befehls
 comment = Kommentar
 comments = Kommentare
-complexify = Complexify
-complexify-path = Komplexer Pfad
+complexify = Komplizieren
+complexify-path = Pfad komplizieren
 component-transfer-type =
   .identity = Identität
   .linear = Linear
@@ -357,7 +357,7 @@ composite-operator =
 compositing = Komposition
 compression = Kompression
 cone-angle = Kegelwinkel
-confirm = Bestätigen Sie
+confirm = Bestätigen
 confirm-access-to-file = Confirm access to "{$fileName}"
   .detail = Um diese Datei bearbeiten zu können, müssen Sie den Zugang zu ihr bestätigen.
 confirm-clear-history = Möchten Sie den Verlauf löschen?
@@ -376,19 +376,22 @@ confirm-delete-colors =
 confirm-delete-comment = Kommentar löschen?
   .detail = Diese Aktion kann nicht rückgängig gemacht werden.
 confirm-delete-files =
-  Delete {$filesCount} {$filesCount ->
-    [one] file
-   *[other] files
-  }?
+  {$filesCount} {$filesCount ->
+    [one] Datei
+   *[other] Dateien
+  } löschen?
   .detail = Diese Aktion kann nicht rückgängig gemacht werden.
 confirm-delete-filters =
-  Delete {$filtersCount ->
-    [one] a filter
-   *[other] {$filtersCount} filters
-  } applied to {$objectsCount} {$objectsCount ->
-    [one] object
-   *[other] objects
-  }?
+  {$filtersCount ->
+    [one] Filter löschen, der von {$objectsCount} {$objectsCount ->
+      [one] Objekt
+     *[other] Objekte
+    } verwendet ist?
+   *[other] {$filtersCount} Filter löschen, die von {$objectsCount} {$objectsCount ->
+      [one] Objekt
+     *[other] Objekte
+    } verwendet sind?
+  }
   .detail = Wenn Sie einen Filter löschen, wird er auch von allen Objekten entfernt, auf die er angewendet wurde.
 confirm-delete-fonts =
   Delete {$fontsCount ->
@@ -493,8 +496,8 @@ dash = Gedankenstrich
 date = Datum
 date-abs = {DATETIME($date, day: "numeric", month: "long", year: "numeric")}
 date-rel = {RELDATETIME($date)}
-date-created = created {RELDATETIME($date)}
-date-wrote = wrote {RELDATETIME($date)}
+date-created = erstellt {RELDATETIME($date)}
+date-wrote = schrieb {RELDATETIME($date)}
 decoration = Dekoration
 decrease = Verringern Sie
 decrease-indent = Einzug verkleinern
@@ -544,7 +547,7 @@ dont-show-again = Nicht mehr anzeigen
 download-on-flathub = Herunterladen auf <strong>Flathub</strong>
 download-on-mac-app-store = Herunterladen aus dem <strong>Mac App Store</strong>
 download-on-snap-store = Herunterladen aus dem <strong>Snap Store</strong>
-downvote = Ablehnen
+downvote = Runterwählen
 dpi = DPI
 drawing = Zeichnung
 drawing-mode = Zeichenmodus
@@ -643,8 +646,8 @@ failed-to-change-post-priority = Änderung der Postpriorität fehlgeschlagen
 failed-to-change-post-status = Änderung des Poststatus fehlgeschlagen
 failed-to-watch-post = Beitrag wurde nicht angezeigt
 failed-to-unwatch-post = Beitrag konnte nicht abgeschaltet werden
-failed-to-upvote-post = Beitrag konnte nicht hochgestuft werden
-failed-to-downvote-post = Beitrag kann nicht heruntergestuft werden
+failed-to-upvote-post = Beitrag konnte nicht hochgewählt werden
+failed-to-downvote-post = Beitrag kann nicht runtergewählt werden
 failed-to-unvote-post = Beitrag nicht entvoten können
 failed-to-star-post = Beitrag wurde nicht gestartet
 failed-to-unstar-post = Beitrag kann nicht entsternt werden
@@ -655,7 +658,7 @@ failed-to-write-file = Datei kann nicht geschrieben werden
   .trial-expired = Die Probezeit ist abgelaufen. Bitte abonnieren Sie einen kostenpflichtigen Plan.
   .subscription-expired = Ihr bestehendes Abonnement ist abgelaufen. Bitte abonnieren Sie erneut ein kostenpflichtiges Abo.
   .user-not-subscribed = Bitte abonnieren Sie einen kostenpflichtigen Tarif.
-  .user-not-subscribed-to-premium-plan = Bitte abonnieren Sie den "Premium"-Plan.
+  .user-not-subscribed-to-premium-plan = Bitte abonnieren Sie den "Premium" Plan.
   .user-not-authorized = Diese Datei wurde von einem anderen Benutzer erstellt.
   .filesystem-permission-denied = Boxy SVG hat nicht die Berechtigung, auf diese Datei zuzugreifen.
 failed-to-create-file-from-clipboard = Datei aus der Zwischenablage kann nicht erstellt werden
@@ -803,39 +806,39 @@ frequency = Frequenz
 fullscreen-mode = Vollbildmodus
 gamma-correction = Gammakorrektur
 garbage-collector = Müllsammler
-general = Allgemein
-generate = Erzeugen Sie
+general = Allgemeine
+generate = Erzeugen
 geometry = Geometrie
 geometry-precision = Präzision der Geometrie
-geometry-precision-hint = Genauigkeit in Form von Dezimalstellen, die von Attributen zur Definition der Formgeometrie wie <code>x</code>, <code>y</code>, <code>Breite</code>, <code>Höhe</code>, <code>r</code> oder <code>d</code> zu verwenden ist.
+geometry-precision-hint = Genauigkeit in Form von Dezimalstellen, die von Attributen zur Definition der Formgeometrie wie <code>x</code>, <code>y</code>, <code>width</code>, <code>height</code>, <code>r</code> oder <code>d</code> zu verwenden ist.
 generate-random-colors = Zufällige Farben generieren
 generating-preview = Vorschau generieren
-generators = Stromerzeuger
+generators = Generatoren
   .barcode = Barcode
   .qr-code = QR-Code
   .parliament-chart = Diagramm des Parlaments
   .triangulated-surface = Dreieckige Oberfläche
   .fire = Feuer
-  .jigsaw-puzzle = Jigsaw-Puzzle
+  .jigsaw-puzzle = Puzzle
   .rasterize = Rasterisieren
   .vectorize = Vektorisieren
-  .pixelate = Pixelate
-  .triangulate = Triangulieren Sie
-  .asciify = Asciify
+  .pixelate = Pixelieren
+  .triangulate = Triangulieren
+  .asciify = Asciieren
   .primitivize = Primitivisieren
-  .sketchify = Sketchify
+  .sketchify = Skizzieren
   .printing-marks = Druckmarken
-  .resize-view-to-fit-objects = Größe der Ansicht an die Objekte anpassen
+  .resize-view-to-fit-objects = Ansicht an Objekte anpassen
   .add-unique-ids = Eindeutige IDs hinzufügen
 get-boxy-svg = Boxy SVG erhalten
 glyph-rotation = Glyphen-Drehung
-grab = Greifen Sie zu
+grab = Greifen
 grab-paint-color = Farbe greifen
 gradient = Farbverlauf
 gradient-id = Gradient ID
-gradient-spread = Gradientenüberlauf
+gradient-spread = Überlauf
   .pad = Pad
-  .repeat = Wiederholen Sie
+  .repeat = Wiederholen
   .reflect = Reflektieren
 gradient-title = Gradient Titel
 gradients = Farbverläufe
@@ -1278,7 +1281,7 @@ preserve = Erhalten Sie
   .rotation = Drehung
   .aspect-ratio = Seitenverhältnis
 preserve-aspect-ratio = Seitenverhältnis beibehalten
-  .meet = Treffen Sie
+  .meet = Meet
   .slice = Slice
 preset-filters = Voreingestellte Filter
   .none = Keine
@@ -1334,7 +1337,7 @@ public-profile = Öffentliches Profil
 puzzle-tab-size = Größe der Registerkarte
 quality = Qualität
 question = Frage
-  .open = Öffnen Sie
+  .open = Öffnen
   .duplicate = Duplizieren
   .answered = Antwortet
   .out-of-date = Veraltet
@@ -1394,8 +1397,8 @@ reverse-order = Umgekehrte Reihenfolge
 rgb = RGB
 ring = Ring
 rotate = Drehen
-rotate-clockwise = Im Uhrzeigersinn drehen
-rotate-counterclockwise = Entgegen des Uhrzeigersinns drehen
+rotate-clockwise = Drehen +90°
+rotate-counterclockwise = Drehen -90°
 rotation = Drehung
   .fixed = Festgelegt
   .random = Zufällig
@@ -1417,7 +1420,7 @@ save-as = Speichern als
 save-svg-files-to-disk = SVG-Dateien auf einem Datenträger speichern
 save-to-cloud-as = In der Cloud speichern unter
 save-to-disk-as = Auf der Festplatte speichern unter
-scalable-vector-graphics-editor = Skalierbarer Vektorgrafik-Editor
+scalable-vector-graphics-editor = Editor für skalierbare Vektorgrafiken
 scale = Skala
 scale--verb = Skalieren
 scale-factor = Skalierungsfaktor
@@ -1466,7 +1469,7 @@ shortcut = Tastaturkürzel
 shortcuts = Tastaturkürzel
   .all = Alle
   .custom = Benutzerdefinierte
-  .conflicting = Widersprüchlich
+  .conflicting = Widersprüchliche
 show = Einblenden
 show-all = Alle anzeigen
 show-ids = IDs anzeigen
@@ -1477,7 +1480,7 @@ show-previous-tab = Vorherige Registerkarte anzeigen
 show-tooltips = Tooltips anzeigen
 show-view-outline-above-objects = Ansichtskontur über den Objekten anzeigen
 simplify = Vereinfachen Sie
-simplify-path = Vereinfachen Sie den Pfad
+simplify-path = Vereinfachen den Pfad
 size = Größe
   .auto = Auto
   .random = Zufällig
@@ -1569,7 +1572,7 @@ subregion = Unterregion
 subscription = Abonnement
 subscription-plan = Abonnement-Plan
   .standard = Standard
-  .premium = Prämie
+  .premium = Premium
 subscription-status =
   .active = Active (next payment due on {DATETIME($date, day: "numeric", month: "long", year: "numeric")})
   .active-org = Aktiv (wenden Sie sich an den Administrator Ihrer Organisation, um Änderungen vorzunehmen)
@@ -1738,7 +1741,7 @@ ui = UI
 unclip = Unclip
 underline = Unterstrichen
 undo = Rückgängig
-ungroup = Gruppierung aufheben
+ungroup = Ungruppieren
 unhide = einblenden
 unhide-all = Alle ausblenden
 units = Einheiten
@@ -1762,8 +1765,8 @@ unvote = Nicht abstimmen
 update-billing = Rechnung aktualisieren
 updated-time = Aktualisierte Zeit
 uploader = Uploader
-upvote = Upvote
-upvoted-by-me = Von mir hochgestuft
+upvote = Hochwählen
+upvoted-by-me = Von mir hochgewählt
 url = URL
 user = Benutzer
 user-not-found = Benutzer nicht gefunden
