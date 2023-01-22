@@ -210,16 +210,16 @@ blend-mode = Mischmodus
   .isolate = Isolieren
 blob = Blob
 blog = Blog
-blur-delta = Unschärfe-Delta
+blur-delta = Unschärfedelta
 blur-radius = Unschärferadius
 bold = Fett
 boolean-operations = Boolesche Operationen
-  .unite = Vereinen
-  .intersect = Schnittmenge
+  .unite = Vereinigen
+  .intersect = Überschneiden
   .subtract = Subtrahieren
   .exclude = Ausschließen
-bowing = Bogenschießen
-break = Pause
+bowing = Krümmung
+break = Unterbrechen
 break-nodes = Knoten unterbrechen
 bring-all-to-front = Alles nach vorne bringen
 bug = Fehler
@@ -228,15 +228,15 @@ bug = Fehler
   .fixed = Behoben
   .wont-fix = Nicht behebbar
   .out-of-date = Veraltet
-bugs = Wanzen
+bugs = Fehler
   .all = Alle
-  .open = Öffnen Sie
-  .closed = Geschlossen
+  .open = Offene
+  .closed = Geschlossene
 byte = Byte
 byte--adjective = Byte
 cache-control =
-  .never-cache = Niemals zwischenspeichern
-  .moderate = Mäßig
+  .never-cache = Niemals
+  .moderate = Moderat
   .normal = Normal
   .aggressive = Aggressiv
   .permanent = Dauerhaft
@@ -261,7 +261,7 @@ canvas = Leinwand
 canvas-space = Koordinatenraum der Leinwand
 category = Kategorie
 cell-size = Größe der Zelle
-center = Zentrum
+center = Zentrieren
 center-horizontally = Horizontal zentrieren
 center-vertically = Vertikal zentrieren
 center-x = Zentrum X
@@ -274,7 +274,7 @@ changed-subscription-plan = Geänderter Abonnementplan
 changelog = Änderungsliste
   .added = Hinzugefügt
   .improved = Verbessert
-  .fixed = Behobener
+  .fixed = Behoben
   .removed = Entfernt
 channel = Kanal
 channels = Kanäle
@@ -287,37 +287,38 @@ channels = Kanäle
   .blue = Blau
   .alpha = Alpha
 character = Zeichen
-character-background-color = Hintergrundfarbe des Zeichens
-character-color = Farbe des Zeichens
+character-background-color = Zeichenhintergrundfarbe
+character-color = Zeichenfarbe
 characters = Zeichen
 charset = Zeichensatz
-choke = Choke
+choke = Drossel
 circle = Kreis
 class = Klasse
 classes = Klassen
 clear = Leeren
 clear-recent = Einträge löschen
-clip = Clip
-clipped = Gekürzt
+clip = Clippen
+clipped = Geclippt
 close = Schließen
 close-path = Pfad schließen
-cloud = Wolke
+cloud = Cloud
 cloud-scope = Umfang
   .personal = Persönlich
   .org = Organisation
 cloud-services = Cloud Dienste
 cloud-storage-hint =
-  You can keep up to 10 GB of data in the Cloud for free. Please <a href="mailto:{$email}">contact us</a>
-  to get a personalized quote for a larger data package.
+  Sie können bis zu 10 GB an Daten kostenlos in der Cloud speichern.
+  Bitte <a href="mailto:{$email}">kontaktieren Sie uns</a>, um ein individuelles Angebot für
+  ein größeres Datenpaket zu erhalten.
 code = Code
-code-block = Code-Block
+code-block = Codeblock
 code-snippets = Codeschnipsel
-cog = Kogge
-  .splay = Spreizen
+cog = Zahnrad
+  .splay = Spreizung
   .teeth = Zähne
 color = Farbe
   .auto = Auto
-  .custom = Benutzerdefiniert
+  .custom = Benutzerdefinierte
   .blue = Blau
   .purple = Lila
   .pink = Rosa
@@ -326,21 +327,21 @@ color = Farbe
   .yellow = Gelb
   .green = Grün
   .graphite = Graphit
-color-id = Farbe ID
-color-quantization = Quantisierung der Farbe
+color-id = ID der Farbe
+color-quantization = Farbquantisierung
 color-scheme = Farbschema
   .auto = Auto
   .light = Helles
   .dark = Dunkles
-color-title = Farbe Titel
+color-title = Titel der Farbe
 colors = Farben
 columns = Spalten
 command = Befehl
 commands = Befehls
 comment = Kommentar
 comments = Kommentare
-complexify = Komplizieren
-complexify-path = Pfad komplizieren
+complexify = Komplexifizieren
+complexify-path = Pfad Komplexifizieren
 component-transfer-type =
   .identity = Identität
   .linear = Linear
@@ -349,29 +350,32 @@ component-transfer-type =
   .discrete = Diskrete Tabelle
 composite-operator =
   .over = Über
-  .in = Unter
-  .atop = Unter
+  .in = In
+  .atop = Obenauf
   .out = Aus
-  .xor = Xoder
-  .arithmetic = Arithmetik
+  .xor = Exklusiv-Oder
+  .arithmetic = Arithmetisch
 compositing = Komposition
 compression = Kompression
 cone-angle = Kegelwinkel
 confirm = Bestätigen
-confirm-access-to-file = Confirm access to "{$fileName}"
+confirm-access-to-file = Zugang zu "{$fileName}" bestätigen
   .detail = Um diese Datei bearbeiten zu können, müssen Sie den Zugang zu ihr bestätigen.
-confirm-clear-history = Möchten Sie den Verlauf löschen?
+confirm-clear-history = Möchten Sie das Protokoll löschen?
   .detail = Diese Aktion kann nicht rückgängig gemacht werden.
-confirm-convert-shape-to-path = Form in Pfad umwandeln?
-  .detail = Diese Form muss in einen Pfad umgewandelt werden, bevor Sie sie mit einem Text versehen.
+confirm-convert-shape-to-path = Form in Pfad konvertieren?
+  .detail = Diese Form muss in einen Pfad umgewandelt werden, um einen Text darauf zu platzieren.
 confirm-delete-colors =
-  Delete {$colorsCount ->
-    [one] a color
-   *[other] {$colorsCount} colors
-  } applied to {$objectsCount} {$objectsCount ->
-    [one] object
-   *[other] objects
-  }?
+  {$colorsCount ->
+    [one] Farbe löschen, die von {$objectsCount} {$objectsCount ->
+      [one] Objekt
+     *[other] Objekte
+    } angewendet ist?
+   *[other] {$colorsCount} Farben löschen, die von {$objectsCount} {$objectsCount ->
+      [one] Objekt
+     *[other] Objekte
+    } angewendet sind?
+  }
   .detail = Wenn Sie eine Farbe löschen, wird sie auch aus allen Objekten entfernt, auf die sie angewendet wurde.
 confirm-delete-comment = Kommentar löschen?
   .detail = Diese Aktion kann nicht rückgängig gemacht werden.
@@ -386,79 +390,94 @@ confirm-delete-filters =
     [one] Filter löschen, der von {$objectsCount} {$objectsCount ->
       [one] Objekt
      *[other] Objekte
-    } verwendet ist?
+    } angewendet ist?
    *[other] {$filtersCount} Filter löschen, die von {$objectsCount} {$objectsCount ->
       [one] Objekt
      *[other] Objekte
-    } verwendet sind?
+    } angewendet sind?
   }
   .detail = Wenn Sie einen Filter löschen, wird er auch von allen Objekten entfernt, auf die er angewendet wurde.
 confirm-delete-fonts =
-  Delete {$fontsCount ->
-    [one] Schrift
-   *[other] {$fontsCount} Schriften
-  } applied to {$objectsCount} {$objectsCount ->
-    [one] text object
-   *[other] text objects
-  }?
+  {$fontsCount ->
+    [one] Schrift löschen, die von {$objectsCount} {$objectsCount ->
+      [one] Textobjekt
+     *[other] Textobjekte
+    } angewendet ist?
+   *[other] {$fontsCount} Schriften löschen, die von {$objectsCount} {$objectsCount ->
+      [one] Textobjekt
+     *[other] Textobjekte
+    } angewendet sind?
+  }
   .detail = Wenn Sie eine Schrift löschen, wird sie auch aus allen Textobjekten entfernt, auf die sie angewendet wurde.
 confirm-delete-gradients =
-  Delete {$gradientsCount ->
-    [one] Farbverlauf
-   *[other] {$gradientsCount} Farbverläufe
-  } applied to {$objectsCount} {$objectsCount ->
-    [one] object
-   *[other] objects
-  }?
+  {$gradientsCount ->
+    [one] Farbverlauf löschen, der von {$objectsCount} {$objectsCount ->
+      [one] Objekt
+     *[other] Objekte
+    } angewendet ist?
+   *[other] {$gradientsCount} Farbverläufe löschen, die von {$objectsCount} {$objectsCount ->
+      [one] Objekt
+     *[other] Objekte
+    } angewendet sind?
+  }
   .detail = Wenn Sie einen Farbverlauf löschen, wird er auch von allen Objekten entfernt, auf die er angewendet wurde.
 confirm-delete-patterns =
-  Delete {$patternsCount ->
-    [one] Muster
-   *[other] {$patternsCount} Muster
-  } applied to {$objectsCount} {$objectsCount ->
-    [one] object
-   *[other] objects
-  }?
+  {$patternsCount ->
+    [one] Muster löschen, das von {$objectsCount} {$objectsCount ->
+      [one] Objekt
+     *[other] Objekte
+    } angewendet ist?
+   *[other] {$patternsCount} Muster löschen, die von {$objectsCount} {$objectsCount ->
+      [one] Objekt
+     *[other] Objekte
+    } angewendet sind?
+  }
   .detail = Wenn Sie ein Muster löschen, wird es auch aus allen Objekten entfernt, auf die es angewendet wurde.
 confirm-delete-markers =
-  Delete {$markersCount ->
-    [one] Markierung
-   *[other] {$markersCount} Markierungen
-  } applied to {$objectsCount} {$objectsCount ->
-    [one] object
-   *[other] objects
-  }?
+  {$markersCount ->
+    [one] Markierung löschen, die von {$objectsCount} {$objectsCount ->
+      [one] Objekt
+     *[other] Objekte
+    } angewendet ist?
+   *[other] {$markersCount} Markierungen löschen, die von {$objectsCount} {$objectsCount ->
+      [one] Objekt
+     *[other] Objekte
+    } angewendet sind?
+  }
   .detail = Wenn Sie eine Markierung löschen, wird sie auch von allen Objekten entfernt, auf die sie angewendet wurde.
 confirm-delete-symbols =
-  Delete {$symbolsCount ->
-    [one] a symbol
-   *[other] {$symbolsCount} symbols
-  } with {$instancesCount} {$instancesCount ->
-    [one] instance
-   *[other] instances
-  }?
-  .detail = Beim Löschen eines Symbols werden auch alle seine Instanzen entfernt.
-confirm-delete-post = Beitrag löschen?
+  {$symbolsCount ->
+    [one] Symbol löschen, das {$instancesCount} {$instancesCount ->
+      [one] Instanz
+     *[other] Instanzen
+    } hat?
+   *[other] {$symbolsCount} Symbole löschen, die {$instancesCount} {$instancesCount ->
+      [one] Instanz
+     *[other] Instanzen
+    } haben?
+  }
+  .detail = Wenn Sie ein Symbol löschen, werden auch alle seine Instanzen entfernt.
+confirm-delete-post = Post löschen?
   .detail = Diese Aktion kann nicht rückgängig gemacht werden.
-confirm-override-font-family = Override "{$family}" font family?
+confirm-override-font-family = Schriftfamilie "{$family}" überschreiben?
   .detail = Diese Schriftfamilie ist bereits definiert; wenn Sie sie erneut hinzufügen, wird die bestehende Definition überschrieben.
-confirm-password = Bestätigen Sie das Passwort
+confirm-password = Passwort bestätigen
   .detail = Bitte geben Sie Ihr aktuelles Passwort ein, um fortzufahren.
-confirm-save-changes = Do you want to save the changes you made to "{$fileName}"?
+confirm-save-changes = Möchten Sie die Änderungen speichern, die Sie an der Datei "{$fileName}" vorgenommen haben?
   .detail = Ihre Änderungen gehen verloren, wenn Sie sie nicht speichern.
-confirm-unlink-font-family = Unlink "{$familyName}" font family?
+confirm-unlink-font-family = Schriftfamilie "{$familyName}" trennen?
   .detail =
-    Diese Schriftfamilie wird heruntergeladen und in die aktuell bearbeitete SVG-Datei eingebettet. Dieser Vorgang kann die Dateigröße Ihrer SVG-Datei erheblich vergrößern.
+    Diese Schriftfamilie wird heruntergeladen und in die aktuell bearbeitete SVG-Datei eingebettet. Diese Aktion kann die Größe Ihrer SVG-Datei erheblich erhöhen.
 connect-filter-primitives = Filterbausteine verbinden
 contact = Kontakt
-contact-hint = Fill the form below or send an email to <a href="mailto:{$email}">{$email}</a>.
+contact-hint = Füllen Sie das folgende Formular aus oder senden Sie eine E-Mail an <a href="mailto:{$email}">{$email}</a>.
 content = Inhalt
-contour = Kontur
+contour = Umrisslinie
 convert = Konvertieren
-convert-glyphs-to-separate-paths = Jede Textglyphe in einen separaten Pfad konvertieren
-convert-to-ad-hoc-color = In ad hoc Farbe umwandeln
-convert-to-ad-hoc-gradient = In ad hoc Farbverlauf umwandeln
-convert-to-custom-filter = In benutzerdefinierte Filter umwandeln
+convert-glyphs-to-separate-paths = Jede Glyphe in einen separaten Pfad konvertieren
+convert-to-ad-hoc-color = In ad hoc Farbe konvertieren
+convert-to-ad-hoc-gradient = In ad hoc Farbverlauf konvertieren
+convert-to-custom-filter = In benutzerdefinierte Filter konvertieren
 coords = Koordinaten
   .x = X
   .y = Y
@@ -469,7 +488,7 @@ coords = Koordinaten
   .y2 = Y2
 copy = Kopieren
 copy-link = Link kopieren
-copy-outer-svg = Äußere svg kopieren
+copy-outer-svg = Äußere SVG kopieren
 corner = Ecke
 corner-radius = Eckenradius
   .top-left = Oben links
@@ -479,8 +498,8 @@ corner-radius = Eckenradius
 create = Erstellen
 created-by-me = Von mir erstellt
 created-time = Erstellungsdatum
-crescent = Mondsichel
-  .arch = Arch
+crescent = Halbmond
+  .arch = Bogen
   .hollow = Hohle
 crop-marks = Schnittmarken
 cross = Kreuz
@@ -492,7 +511,7 @@ custom-filters = Benutzerdefinierte Filter
 custom-thickness = Benutzerdefinierte Dicke
 cut = Ausschneiden
 cycles = Zyklen
-dash = Gedankenstrich
+dash = Strich
 date = Datum
 date-abs = {DATETIME($date, day: "numeric", month: "long", year: "numeric")}
 date-rel = {RELDATETIME($date)}
@@ -512,7 +531,7 @@ delete-filter-primitive = Filterbaustein löschen
 delete-gradient-stop = Farbverlaufsstopp löschen
 delete-gradient-stops = Farbverlaufsstopps löschen
 delete-nodes = Knoten löschen
-delete-primitive = Primitiv löschen
+delete-primitive = Baustein löschen
 delete-stops = Stopps löschen
 delta = Delta
 delta-x = Delta X
@@ -520,22 +539,22 @@ delta-y = Delta Y
 depth = Tiefe
 description = Beschreibung
 deselect-all = Auswahl aufheben
-desktop-app = Desktop-Anwendung
+desktop-app = Desktop-App
 developer = Entwickler
 diffuse-constant = Diffuskonstante
 diffuse-light = Diffuslicht
 disconnect-filter-primitives = Filterbausteine abtrennen
 distance = Distanz
 distribute-horizontally = Horizontal verteilen
-distribute-vertically = Vertikale Verteilung
-distribute-centers-horizontally = Verteilung der Zentren in horizontaler Richtung
-distribute-centers-vertically = Vertikale Verteilung der Zentren
+distribute-vertically = Vertikal verteilen
+distribute-centers-horizontally = Zentren horizontal verteilen
+distribute-centers-vertically = Zentren vertikal verteilen
 distribution = Verteilung
 distribution-distance = Verteilungsdistanz
   .auto = Auto
-  .manual = Handbuch
+  .manual = Manuelle
 dithering = Dithering
-  .none = Keine
+  .none = Kein
   .floyd-steinberg = Floyd-Steinberg
   .false-floyd-steinberg = Falscher Floyd-Steinberg
   .stucki = Stucki
@@ -544,9 +563,9 @@ divisor = Divisor
 docks = Docks
 dont-save = Nicht speichern
 dont-show-again = Nicht mehr anzeigen
-download-on-flathub = Herunterladen auf <strong>Flathub</strong>
-download-on-mac-app-store = Herunterladen aus dem <strong>Mac App Store</strong>
-download-on-snap-store = Herunterladen aus dem <strong>Snap Store</strong>
+download-on-flathub = Laden im <strong>Flathub</strong>
+download-on-mac-app-store = Laden im <strong>Mac App Store</strong>
+download-on-snap-store = Laden im <strong>Snap Store</strong>
 downvote = Runterwählen
 dpi = DPI
 drawing = Zeichnung
@@ -561,16 +580,16 @@ draw-as = Zeichnen als
   .polyline-or-polygon = Polylinie oder Polygon
   .line-polyline-or-polygon = Linie, Polylinie oder Polygon
 duplicate = Duplizieren
-duplicate-filter-primitive = Duplizieren von Filterbausteinen
+duplicate-filter-primitive = Filterbausteinen duplizieren
 duplicate-gradient-stop = Farbverlaufsstopp duplizieren
 duplicate-gradient-stops = Farbverlaufsstopps duplizieren
 duplicate-primitive = Filterbaustein duplizieren
 duplicate-stops = Stopps duplizieren
-dynamics = Dynamics
+dynamics = Dynamik
 edge-mode = Kantenmodus
   .none = Keiner
   .duplicate = Duplizieren
-  .wrap = Umbrechen
+  .wrap = Umwickeln
 edit = Bearbeiten
 edit--verb = Bearbeiten
 edit-attribute = Attribut bearbeiten
@@ -581,15 +600,15 @@ edit-element-content = Elementinhalt bearbeiten
 edit-filter = Filter bearbeiten
 edit-id = ID bearbeiten
 edit-idea = Idee bearbeiten
-edit-post = Beitrag bearbeiten
+edit-post = Post bearbeiten
 edit-profile = Profil bearbeiten
-edit-question = Frage editieren
+edit-question = Frage bearbeiten
 edit-style = Stil bearbeiten
 edit-text = Text bearbeiten
 edit-title = Titel bearbeiten
-editors-choice = Wahl des Herausgebers
+editors-choice = Auswahl der Redakteure
 elements = Elemente
-elevation = Erhebungen
+elevation = Höhe
 ellipse = Ellipse
 email = E-mail
 email-already-registered = Die E-Mail Adresse ist bereits registriert
@@ -637,20 +656,20 @@ failed-to-send-verification-email = Bestätigungs-E-Mail konnte nicht gesendet w
 failed-to-add-comment = Neuer Kommentar konnte nicht hinzugefügt werden
 failed-to-edit-comment = Kommentar kann nicht bearbeitet werden
 failed-to-delete-comment = Kommentar konnte nicht gelöscht werden
-failed-to-add-post = Beitrag kann nicht hinzugefügt werden
-failed-to-move-post = Beitrag nicht verschoben
-failed-to-edit-post = Beitrag kann nicht bearbeitet werden
-failed-to-delete-post = Beitrag konnte nicht gelöscht werden
+failed-to-add-post = Post kann nicht hinzugefügt werden
+failed-to-move-post = Post nicht verschoben
+failed-to-edit-post = Post kann nicht bearbeitet werden
+failed-to-delete-post = Post konnte nicht gelöscht werden
 failed-to-change-post-tags = Beitrags-Tags konnten nicht geändert werden
 failed-to-change-post-priority = Änderung der Postpriorität fehlgeschlagen
 failed-to-change-post-status = Änderung des Poststatus fehlgeschlagen
-failed-to-watch-post = Beitrag wurde nicht angezeigt
-failed-to-unwatch-post = Beitrag konnte nicht abgeschaltet werden
-failed-to-upvote-post = Beitrag konnte nicht hochgewählt werden
-failed-to-downvote-post = Beitrag kann nicht runtergewählt werden
-failed-to-unvote-post = Beitrag nicht entvoten können
-failed-to-star-post = Beitrag wurde nicht gestartet
-failed-to-unstar-post = Beitrag kann nicht entsternt werden
+failed-to-watch-post = Post wurde nicht angezeigt
+failed-to-unwatch-post = Post konnte nicht abgeschaltet werden
+failed-to-upvote-post = Post konnte nicht hochgewählt werden
+failed-to-downvote-post = Post kann nicht runtergewählt werden
+failed-to-unvote-post = Post nicht entvoten können
+failed-to-star-post = Post wurde nicht gestartet
+failed-to-unstar-post = Post kann nicht entsternt werden
 failed-to-open-file = Datei konnte nicht geöffnet werden
   .file-not-found = File was not found on the server or some other server error occoured ({$serverError}).
 failed-to-write-file = Datei kann nicht geschrieben werden
@@ -685,7 +704,10 @@ failed-to-convert-text-to-path = Konvertierung von Text in Pfad fehlgeschlagen
   .no-font = Die für diesen Text verwendete Schrift wurde weder in den Definitionen noch auf dem lokalen Rechner gefunden.
 failed-to-send-contact-message = Nachricht konnte nicht gesendet werden
 fetching = Abrufbar unter
-file = Datei
+file = {$os ->
+    [macos] Ablage
+   *[other] Datei
+  }
   .edited = Bearbeitet
   .imported = Importiert
   .untitled = Unbetitelt
@@ -789,11 +811,11 @@ font-subset = Schriftuntergruppe
 font-weight = Schriftgewicht
   .named-100 = Dünn
   .named-200 = Extra-leicht
-  .named-300 = Licht
+  .named-300 = Leicht
   .named-400 = Normal
   .named-500 = Mittel
-  .named-600 = Halbfettdruck
-  .named-700 = Kühn
+  .named-600 = Halbfett
+  .named-700 = Fett
   .named-800 = Extrafett
   .named-900 = Ultrafett
   .synthesized = Synthetisiert
@@ -1075,7 +1097,7 @@ line-join = Linienzusammentreffen
   .bevel = Abgeschrägte Kante
 line-spacing = Zeilenabstand
 link = Link
-link--verb = Verbinden
+link--verb = Linken
 live-demo = Live-Demo
 live-demo-hint = Klicken Sie auf die Miniaturansicht einer SVG-Datei, um sie mit dem Boxy SVG Editor zu öffnen.
 local-fonts = Lokale Schriften
@@ -1125,8 +1147,8 @@ move-gradient-stop = Farbverlaufsstopp verschieben
 move-gradient-stops = Farbverlaufsstopps verschieben
 move-nodes = Knoten verschieben
 move-objects-with-view = Objekte mit Ansicht verschieben
-move-post = Posten verschieben
-  .detail = Der Beitrag erhält eine neue eindeutige ID und einen neuen Pfad, während der alte Pfad in eine einfache Weiterleitung umgewandelt wird.
+move-post = Post verschieben
+  .detail = Der Post erhält eine neue eindeutige ID und einen neuen Pfad, während der alte Pfad in eine einfache Weiterleitung umgewandelt wird.
 move-transform-origin = Transformationsursprung verschieben
 move-tab-to-new-window = Registerkarte in neues Fenster verschieben
 n-gon = N-Gon
@@ -1140,11 +1162,11 @@ new-category = Neue Kategorie
 new-comment = Neuer Kommentar
 new-file = Neue Datei
 new-folder-with-selection = Neuer Ordner mit Auswahl
-new-from-clipboard = Neu aus der Zwischenablage
+new-from-clipboard = Neu aus Zwischenablage
 new-from-selected = Neu von ausgewählten
 new-from-url = Neu von URL
 new-idea = Neue Idee
-new-post = Neue Stelle
+new-post = Neuen Post
 new-question = Neue Frage
 node = Knoten
 nodes = Knoten
@@ -1152,7 +1174,7 @@ noise = Rauschen
 none = Keine
 non-unique-id = Nicht eindeutige ID
 normalize = Normalisieren
-  .convert-texts-to-paths = Texte in Pfade umwandeln
+  .convert-texts-to-paths = Texte in Pfade konvertieren
   .remove-embedded-fonts = Eingebettete Schriften entfernen
   .remove-non-standard-namespaces = Nicht standardisierte Namensräume entfernen
   .remove-hidden-objects = Ausgeblendete Objekte entfernen
@@ -1193,7 +1215,10 @@ open-from-cloud = Öffnen aus Wolke
 open-from-disk = Öffnen von Festplatte
 open-in-new-tab = Öffnen in neuer Registerkarte
 open-path = Pfad öffnen
-open-recent = Zuletzt geöffnet
+open-recent = {$os ->
+  [macos] Benutzte Dokumente
+ *[other] Zuletzt geöffnet
+}
 open-with-boxy-svg = Öffnen mit Boxy SVG ⧉
 open-with-web-browser = Öffnen mit Webbrowser ⧉
 operator = Betreiber
@@ -1247,7 +1272,10 @@ parliament-seats-suffix = {$count ->
 password = Passwort
 password-hint = Das für die Anmeldung verwendete Passwort.
 password-too-short = Das Passwort muss aus mindestens 6 Zeichen bestehen
-paste = Einfügen
+paste = {$os ->
+  [macos] Einsetzen
+ *[other] Einfügen
+}
 path = Pfad
 paths = Pfade
 path-nodes = Pfadknoten
@@ -1267,8 +1295,8 @@ position = Position
   .left = Links
   .right = Rechts
   .center = Zentrum
-post = Beitrag
-posts = Beiträge
+post = Post
+posts = Posten
 preferences = Einstellungen
 prefix = Vorsilbe
   .auto = Auto
@@ -1414,12 +1442,24 @@ sampling = Probenahme
   .deterministic = Deterministisch
   .random = Zufällig
 saturation = Sättigung
-save = Speichern
+save = {$os ->
+  [macos] Sichern
+ *[other] Speichern
+}
 save-and-host-svg-files-in-cloud = Speichern und Hosten von SVG-Dateien in der Cloud
-save-as = Speichern als
+save-as = {$os ->
+  [macos] Sichern
+ *[other] Speichern
+} als
 save-svg-files-to-disk = SVG-Dateien auf einem Datenträger speichern
-save-to-cloud-as = Speichern in Wolke unter
-save-to-disk-as = Speichern auf Festplatte unter
+save-to-cloud-as = {$os ->
+  [macos] Sichern
+ *[other] Speichern
+} in Cloud als
+save-to-disk-as = {$os ->
+  [macos] Sichern
+ *[other] Speichern
+} auf Festplatte als
 scalable-vector-graphics-editor = Editor für skalierbare Vektorgrafiken
 scale = Skala
 scale--verb = Skalieren
@@ -1449,7 +1489,7 @@ selection-mode =
   .intersect = Überschneiden
 selection-shape =
   .rectangular = Rechteckig
-  .manual = Handbuch
+  .manual = Manuelle
 send = Senden Sie
 separator = Abscheider
 services = Dienstleistungen
@@ -1460,7 +1500,7 @@ shadows-color = Farbe des Schattens
 shape = Form
 shapes = Formen
 shapes-per-iteration = Formen pro Iteration
-shape-to-path = Form in Pfad umwandeln
+shape-to-path = Form in Pfad konvertieren
 share = Gemeinsames Nutzen
 share-file = Datei teilen
   .url-hint = Verwenden Sie diese URL, um die Datei an andere Personen weiterzugeben oder auf anderen Websites einzubetten.
@@ -1560,7 +1600,7 @@ strikethrough = Durchgestrichen
 stroke = Kontur
 stroke-color = Farbe der Kontur
 stroke-opacity = Deckkraft der Kontur
-stroke-to-path = Kontur in Pfad umwandeln
+stroke-to-path = Kontur in Pfad konvertieren
 stroke-width = Breite der Kontur
   .non-scaling = Nicht skalierend
   .scaling = Skalierung
@@ -1603,15 +1643,15 @@ text-anchor = Text-Anker
   .middle = Mitte
   .end = Ende
 text-decoration = Textdekoration
-  .underline = Unterstrichen
-  .line-through = Linie-durch
-  .overline = Überschrift
-  .remove-underline = Unterstriche entfernen
-  .remove-line-through = Durchgehende Linie entfernen
-  .remove-overline = Überschrift entfernen
+  .underline = Unterstrich
+  .line-through = Durchgestrich
+  .overline = Überstrich
+  .remove-underline = Unterstrich entfernen
+  .remove-line-through = Durchstrich entfernen
+  .remove-overline = Überstrich entfernen
 text-on-path = Text auf Pfad
 text-path = Text Pfad
-text-transform = Text umwandeln
+text-transform = Texttransformation
   .capitalize = Großschreiben
   .uppercase = Großbuchstaben
   .lowercase = Kleinbuchstaben
@@ -1703,7 +1743,7 @@ tutorial-selecting-objects =
   .title = Auswählen von Objekten
   .description = Wählen Sie ein oder mehrere Objekte aus.
 tutorial-transforming-objects =
-  .title = Objekte umwandeln
+  .title = Objekte transformieren
   .description = Verschieben, Skalieren, Neigen und Drehen von Objekten.
 tutorial-paths =
   .title = Pfade
@@ -1738,7 +1778,7 @@ tutorial-export =
 type = Typ
 typography = Typografie
 ui = UI
-unclip = Unclip
+unclip = Unclippen
 underline = Unterstrichen
 undo = Widerrufen
 ungroup = Ungruppieren
