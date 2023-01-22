@@ -385,13 +385,13 @@ confirm-delete-colors =
   }?
   .detail = Deleting a color also removes it from all objects it was applied to.
 confirm-delete-comment = Delete comment?
-  .detail = This action can't be undone.
+  .detail = This action can't be reverted.
 confirm-delete-files =
   Delete {$filesCount} {$filesCount ->
     [one] file
    *[other] files
   }?
-  .detail = This action can't be undone.
+  .detail = This action can't be reverted.
 confirm-delete-filters =
   Delete {$filtersCount ->
     [one] a filter
@@ -447,7 +447,7 @@ confirm-delete-symbols =
   }?
   .detail = Deleting a symbol also removes all its instances.
 confirm-delete-post = Delete post?
-  .detail = This action can't be undone.
+  .detail = This action can't be reverted.
 confirm-override-font-family = Override "{$family}" font family?
   .detail = This font family is already defined, by adding it again you will override the exisitng definition.
 confirm-password = Confirm password
@@ -478,7 +478,7 @@ coords = Coordinates
   .y2 = Y2
 copy = Copy
 copy-link = Copy link
-copy-outer-svg = Copy outer svg
+copy-outer-svg = Copy outer SVG
 corner = Corner
 corner-radius = Corner radius
   .top-left = Top left
