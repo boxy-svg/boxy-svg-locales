@@ -1241,7 +1241,6 @@ other-shape = Andere Form
 outer-radius = Außenradius
 outer-radius-x = Außenradius X
 outer-radius-y = Außenradius Y
-outset = @todo
 outset-path = Pfad erweitern
 outset-path-short = Erweitern
 overflow = Überlauf

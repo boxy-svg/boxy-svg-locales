@@ -1252,7 +1252,6 @@ other-shape = Inny kształt
 outer-radius = Promień zewnętrzny
 outer-radius-x = Promień zewnętrzny X
 outer-radius-y = Promień zewnętrzny Y
-outset = @todo
 outset-path = Wysuń ścieżkę
 outset-path-short = Wysuń
 overflow = Nadmiar

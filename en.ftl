@@ -1233,7 +1233,6 @@ other-shape = Other shape
 outer-radius = Outer radius
 outer-radius-x = Outer radius X
 outer-radius-y = Outer radius Y
-outset = Outset
 outset-path = Outset path
 outset-path-short = Outset
 overflow = Overflow
