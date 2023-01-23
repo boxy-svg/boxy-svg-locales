@@ -1218,6 +1218,7 @@ other-shape = Otra forma
 outer-radius = Radio exterior
 outer-radius-x = Radio exterior X
 outer-radius-y = Radio exterior Y
+outset = @todo
 outset-path = Trayecto ampliar
 outset-path-short = Ampliar
 overflow = Desbordamiento

@@ -924,8 +924,8 @@ inner-radius-x = Inner radius X
 inner-radius-y = Inner radius Y
 input-slot = Input slot
 inset = Inset
-inset--verb = Inset
 inset-path = Inset path
+inset-path-short = Inset
 inspect = Inspect
 install = Install
 install-boxy-svg = Install Boxy SVG
@@ -1181,7 +1181,7 @@ no-fonts-found = No fonts found
 no-gradients-found = No gradients found
 no-gradient-stops-selected = No gradient stops selected
 no-history-items = No history items
-no-local-fonts-api = Your browser does not support the <a href="https://boxy-svg.com/blog/15">local fonts access</a>
+no-local-fonts-api = Your browser does not support the <a href="https://boxy-svg.com/blog/15">Local Font Access API</a>
 no-local-fonts-permission = <a href="">Click here</a> to give Boxy SVG permission to use your local fonts
 no-markers-found = No markers found
 no-patterns-found = No patterns found
@@ -1235,6 +1235,7 @@ outer-radius-x = Outer radius X
 outer-radius-y = Outer radius Y
 outset = Outset
 outset-path = Outset path
+outset-path-short = Outset
 overflow = Overflow
   .cut = Cut
   .visible = Visible
