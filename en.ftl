@@ -56,6 +56,8 @@ anchor = Anchor
 angle = Angle
   .random = Random
   .fixed = Fixed
+animation = Animation
+animation-panel = Animation panel
 anti-aliasing = Anti-aliasing
 app-description-short =
   <p><strong>Boxy SVG</strong> project goal is to create the best tool for editing SVG files.</p>
@@ -317,6 +319,7 @@ cloud-storage-hint =
   to get a personalized quote for a larger data package.
 code = Code
 code-block = Code block
+code-panel = Code panel
 code-snippets = Code snippets
 cog = Cog
   .splay = Splay
@@ -627,6 +630,7 @@ enter-your-text-here = Enter your text here
 erase = Erase
 error-correction = Error correction
 exit = Exit
+experimental-features = Experimental features
 exponent = Exponent
 export = Export
 export--verb = Export
