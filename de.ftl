@@ -56,7 +56,6 @@ angle = Winkel
   .random = Zufälliger
   .fixed = Fester
 animation = @todo
-animation-panel = @todo
 anti-aliasing = Antialiasing
 app-description-short =
   <p><strong>Boxy SVG</strong> Projektziel ist es, das beste Werkzeug für die Bearbeitung von SVG zu schaffen.</p>
@@ -314,7 +313,6 @@ cloud-storage-hint =
   ein größeres Datenpaket zu erhalten.
 code = Code
 code-block = Codeblock
-code-panel = @todo
 code-snippets = Codeschnipsel
 cog = Zahnrad
   .splay = Spreizung

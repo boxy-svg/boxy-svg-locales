@@ -56,7 +56,6 @@ angle = Ángulo
   .random = Al azar
   .fixed = Fijo
 animation = @todo
-animation-panel = @todo
 anti-aliasing = Antialiasing
 app-description-short =
   <p>El objetivo del proyecto <strong>Boxy SVG</strong> es crear la mejor herramienta para editar archivos SVG.</p>
@@ -313,7 +312,6 @@ cloud-storage-hint =
   para obtener una cotización por un paquete de datos más grande.
 code = Código
 code-block = Bloque de códigos
-code-panel = @todo
 code-snippets = Fragmentos de código
 cog = Cog
   .splay = Biselar

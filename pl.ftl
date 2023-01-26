@@ -56,7 +56,6 @@ angle = Kąt
   .random = Losowy
   .fixed = Stały
 animation = @todo
-animation-panel = @todo
 anti-aliasing = Antyaliasing
 app-description-short =
   <p><strong>Boxy SVG</strong> to program stworzony specjalnie z myślą o edycji plików SVG.</p>
@@ -321,7 +320,6 @@ cloud-storage-hint =
   z nami aby uzyskać indywidualną wycenę większego pakietu danych.
 code = Kod
 code-block = Blok kodu
-code-panel = @todo
 code-snippets = Fragmenty kodu
 cog = Trybik
   .splay = Rozstaw
