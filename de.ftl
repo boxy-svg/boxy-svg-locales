@@ -55,7 +55,7 @@ anchor = Anker
 angle = Winkel
   .random = Zufälliger
   .fixed = Fester
-animation = @todo
+animation = Animation
 anti-aliasing = Antialiasing
 app-description-short =
   <p><strong>Boxy SVG</strong> Projektziel ist es, das beste Werkzeug für die Bearbeitung von SVG zu schaffen.</p>
@@ -637,7 +637,7 @@ enter-your-text-here = Geben Sie hier Ihren Text ein
 erase = Ausradieren
 error-correction = Fehlerkorrektur
 exit = Beenden
-experimental-features = @todo
+experimental-features = Experimentelle Funktionen
 exponent = Exponent
 export = Export
 export--verb = Exportieren
