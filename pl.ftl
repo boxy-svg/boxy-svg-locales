@@ -55,7 +55,7 @@ anchor = Zakotwiczenie
 angle = Kąt
   .random = Losowy
   .fixed = Stały
-animation = @todo
+animation = Animacja
 anti-aliasing = Antyaliasing
 app-description-short =
   <p><strong>Boxy SVG</strong> to program stworzony specjalnie z myślą o edycji plików SVG.</p>
@@ -646,7 +646,7 @@ enter-your-text-here = Wpisz tutaj swój tekst
 erase = Wymaż
 error-correction = Korekcja błędów
 exit = Wyjdź
-experimental-features = @todo
+experimental-features = Eksperymentalne funkcje
 exponent = Wykładnik
 export = Eksport
 export--verb = Eksportuj
