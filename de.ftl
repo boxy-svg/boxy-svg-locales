@@ -1378,6 +1378,7 @@ radial-gradient = Radialer Farbverlauf
 radius = Radius
 radius-x = Radius X
 radius-y = Radius Y
+rasterize = @todo
 rate-on-mac-app-store = Bewerte im Mac App Store
 recent-files = {$os ->
   [macos] Benutzte Dokumente

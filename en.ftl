@@ -1368,6 +1368,7 @@ radial-gradient = Radial gradient
 radius = Radius
 radius-x = Radius X
 radius-y = Radius Y
+rasterize = Rasterize
 rate-on-mac-app-store = Rate on Mac App Store
 recent-files = Recent files
 recent-files-hint = Limit the number of files shown by "File -> Open Recent" menu.

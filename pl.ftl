@@ -1388,6 +1388,7 @@ radial-gradient = Gradient kołowy
 radius = Promień
 radius-x = Promień X
 radius-y = Promień Y
+rasterize = @todo
 rate-on-mac-app-store = Oceń na Mac App Store
 recent-files = Ostatnie pliki
 recent-files-hint = Ogranicz liczbę plików pokazywanych przez menu „Plik -> Otwórz ostatnie”.
