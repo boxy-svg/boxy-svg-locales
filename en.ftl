@@ -57,6 +57,7 @@ angle = Angle
   .random = Random
   .fixed = Fixed
 animation = Animation
+animations = Animations
 anti-aliasing = Anti-aliasing
 app-description-short =
   <p><strong>Boxy SVG</strong> project goal is to create the best tool for editing SVG files.</p>
@@ -1277,6 +1278,7 @@ pin = Pin
 pixel-shape = Pixel shape
 pixel-size = Pixel size
 pixels-per-unit = Pixels per unit
+play = Play
 polyline = Polyline
 polygon = Polygon
 polygons = Polygons

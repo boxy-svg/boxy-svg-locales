@@ -56,6 +56,7 @@ angle = Ángulo
   .random = Al azar
   .fixed = Fijo
 animation = Animación
+animations = @todo
 anti-aliasing = Antialiasing
 app-description-short =
   <p>El objetivo del proyecto <strong>Boxy SVG</strong> es crear la mejor herramienta para editar archivos SVG.</p>
@@ -1262,6 +1263,7 @@ pin = Pin
 pixel-shape = Forma de los píxeles
 pixel-size = Tamaño de píxel
 pixels-per-unit = Píxeles por unidad
+play = @todo
 polyline = Polilínea
 polygon = Polígono
 polygons = Polígonos

@@ -56,6 +56,7 @@ angle = Winkel
   .random = Zufälliger
   .fixed = Fester
 animation = Animation
+animations = @todo
 anti-aliasing = Antialiasing
 app-description-short =
   <p><strong>Boxy SVG</strong> Projektziel ist es, das beste Werkzeug für die Bearbeitung von SVG zu schaffen.</p>
@@ -1288,6 +1289,7 @@ pin = Pinnen
 pixel-shape = Pixelform
 pixel-size = Pixelgröße
 pixels-per-unit = Pixel pro Einheit
+play = @todo
 polyline = Polylinie
 polygon = Polygon
 polygons = Polygone
