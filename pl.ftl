@@ -56,7 +56,7 @@ angle = Kąt
   .random = Losowy
   .fixed = Stały
 animation = Animacja
-animations = @todo
+animations = Animacje
 anti-aliasing = Antyaliasing
 app-description-short =
   <p><strong>Boxy SVG</strong> to program stworzony specjalnie z myślą o edycji plików SVG.</p>
@@ -1298,7 +1298,7 @@ pin = Przypnij
 pixel-shape = Kształt piksela
 pixel-size = Rozmiar piksela
 pixels-per-unit = Liczba pikseli na jednostkę
-play = @todo
+play = Start
 polyline = Polilinia
 polygon = Wielokąt
 polygons = Wielokąty
