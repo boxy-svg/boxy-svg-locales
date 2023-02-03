@@ -59,28 +59,29 @@ animation = Animation
 animations = Animationen
 anti-aliasing = Antialiasing
 app-description-short =
-  <p><strong>Boxy SVG</strong> Projektziel ist es, das beste Werkzeug für die Bearbeitung von SVG zu schaffen.</p>
+  <p><strong>Boxy SVG</strong> ist das beste Tool für die Bearbeitung von SVG-Dateien.</p>
   <p>Sowohl für Anfänger als auch für professionelle <strong>Web-Designer</strong> und <strong>Web-Entwickler</strong>.</p>
   <p>Auf jedem Gerät und Betriebssystem.</p>
 app-description-long =
-  <p>Boxy SVG Projektziel ist es, das beste Werkzeug für die Bearbeitung von SVG-Dateien zu schaffen. Sowohl für Anfänger als auch für professionelle Designer und Entwickler. Auf jedem Gerät und Betriebssystem.</p>
+  <p>Das Projektziel von Boxy SVG ist es, das beste Tool für die Bearbeitung von SVG-Dateien zu schaffen. Sowohl
+  für Anfänger als auch für professionelle Web-Designer und Web-Entwickler. Auf jedem Gerät und Betriebssystem.</p>
   <p><em>=== Kernfunktionen: ===</em></p>
   <ul>
-    <li>Saubere und intuitive Benutzeroberfläche, stark inspiriert von Inkscape, Sketch und Adobe Illustrator</li>
+    <li>Saubere und intuitive Benutzeroberfläche, die sich stark an Inkscape, Sketch und Adobe Illustrator orientiert</li>
     <li>Umfassende Unterstützung für die Bearbeitung von Objektgeometrie, Transformation, Farbe und anderen Eigenschaften auf der Leinwand</li>
     <li>Speichern in den Formaten SVG und SVGZ, Export in PNG, JPG, WebP, PDF und HTML5</li>
-    <li>Integration mit Pixabay und anderen Bibliotheken mit Millionen kostenloser Stockfotos und Vektoren</li>
+    <li>Integration von Pixabay und anderen Bibliotheken mit Millionen von kostenlosen Stockfotos und Vektorgrafiken</li>
     <li>Integration von Google Fonts mit Hunderten von kostenlosen Schriften</li>
     <li>Konfigurierbare Tastaturkürzel für über 100 Befehle</li>
     <li>Manuelle Hilfslinien, intelligente Hilfslinien und Gitter</li>
-    <li>Pfadoperationen (vereinigen, schneiden, subtrahieren, ausschließen, schließen, umkehren usw.)</li>
+    <li>Pfadoperationen (Vereinigung, Überschneidung, Differenz, Ausschluss, Schließen, Umkehrung usw.)</li>
     <li>Anordnungsoperationen (Ausrichten an, Drehen, Spiegeln, Ordnen, Gruppieren usw.)</li>
   </ul>
   <p><em>=== Für Webentwickler: ===</em></p>
   <ul>
     <li>Chromium-basierte Rendering-Engine</li>
-    <li>SVG- und CSS-Code-Inspektor ähnlich wie bei den Chrome Dev Tools</li>
-    <li>Saubere SVG-Ausgabe, die IDs, Klassen, Titel und andere Metadaten beibehält</li>
+    <li>SVG- und CSS-Code-Inspector ähnlich wie bei Chrome-Entwicklertools</li>
+    <li>Saubere SVG-Ausgabe, die IDs, Klassen, Titel und andere Metadaten bewahrt</li>
     <li>Unterstützung für die Bearbeitung von SVG-Sprites</li>
   </ul>
 app-description-package-notice =
@@ -153,7 +154,7 @@ aria-role = Rolle
   .tab = Registerkarte
   .table = Tabelle
   .tablist = Registerkartenliste
-  .tabpanel = Registerkartenpanel
+  .tabpanel = Registerkartenbedienfeld
   .term = Begriff
   .textbox = Textfeld
   .timer = Zeitgeber
@@ -210,7 +211,7 @@ blend-mode = Mischmodus
   .color = Farbe
   .luminosity = Leuchtkraft
   .isolate = Isolieren
-blob = Blob
+blob = Klecks
 blog = Blog
 blur-delta = Unschärfedelta
 blur-radius = Unschärferadius
@@ -273,7 +274,7 @@ change-color = Farbe ändern
 change-plan = Plan ändern
 changed-subscription-plan = Geänderter Abonnementplan
   .detail = Ihr neuer Plan ist: {$planName}
-changelog = Änderungsliste
+changelog = Änderungsprotokoll
   .added = Hinzugefügt
   .improved = Verbessert
   .fixed = Behoben
@@ -320,7 +321,7 @@ cog = Zahnrad
   .teeth = Zähne
 color = Farbe
   .auto = Auto
-  .custom = Benutzerdefinierte
+  .custom = Benutzerdefiniert
   .blue = Blau
   .purple = Lila
   .pink = Rosa
@@ -333,13 +334,13 @@ color-id = Farbe ID
 color-quantization = Farbquantisierung
 color-scheme = Farbschema
   .auto = Auto
-  .light = Helles
-  .dark = Dunkles
+  .light = Hell
+  .dark = Dunkel
 color-title = Titel der Farbe
 colors = Farben
 columns = Spalten
 command = Befehl
-commands = Befehls
+commands = Befehle
 comment = Kommentar
 comments = Kommentare
 complexify = Komplexifizieren
@@ -365,7 +366,7 @@ confirm-access-to-file = Zugang zu "{$fileName}" bestätigen
   .detail = Um diese Datei bearbeiten zu können, müssen Sie den Zugang zu ihr bestätigen.
 confirm-clear-history = Möchten Sie das Protokoll löschen?
   .detail = Diese Aktion kann nicht rückgängig gemacht werden.
-confirm-convert-shape-to-path = Form in Pfad konvertieren?
+confirm-convert-shape-to-path = Form in Pfad umwandeln?
   .detail = Diese Form muss in einen Pfad umgewandelt werden, um einen Text darauf zu platzieren.
 confirm-delete-colors =
   {$colorsCount ->
@@ -472,14 +473,14 @@ confirm-unlink-font-family = Schriftfamilie "{$familyName}" trennen?
     Diese Schriftfamilie wird heruntergeladen und in die aktuell bearbeitete SVG-Datei eingebettet. Diese Aktion kann die Größe Ihrer SVG-Datei erheblich erhöhen.
 connect-filter-primitives = Filterbausteine verbinden
 contact = Kontakt
-contact-hint = Füllen Sie das folgende Formular aus oder senden Sie eine E-Mail an <a href="mailto:{$email}">{$email}</a>.
+contact-hint = Bitte füllen Sie das nachstehende Formular aus oder senden Sie eine E-Mail an <a href="mailto:{$email}">{$email}</a>.
 content = Inhalt
 contour = Umrisslinie
-convert = Konvertieren
-convert-glyphs-to-separate-paths = Jede Glyphe in einen separaten Pfad konvertieren
-convert-to-ad-hoc-color = In ad hoc Farbe konvertieren
-convert-to-ad-hoc-gradient = In ad hoc Farbverlauf konvertieren
-convert-to-custom-filter = In benutzerdefinierte Filter konvertieren
+convert = Umwandeln
+convert-glyphs-to-separate-paths = Jede Glyphe in einen separaten Pfad umwandeln
+convert-to-ad-hoc-color = In ad hoc Farbe umwandeln
+convert-to-ad-hoc-gradient = In ad hoc Farbverlauf umwandeln
+convert-to-custom-filter = In benutzerdefinierte Filter umwandeln
 coords = Koordinaten
   .x = X
   .y = Y
@@ -612,7 +613,7 @@ editors-choice = Auswahl der Redakteure
 elements = Elemente
 elevation = Höhe
 ellipse = Ellipse
-email = E-mail
+email = E-Mail
 email-already-registered = Die E-Mail Adresse ist bereits registriert
 email-hint = E-Mail-Adresse, die zum Anmelden und zur Wiederherstellung des Passworts verwendet wird.
 emoji-category =
@@ -833,7 +834,7 @@ general = Allgemein
 generate = Generieren
 geometry = Geometrie
 geometry-precision = Präzision der Geometrie
-geometry-precision-hint = Genauigkeit in Form von Dezimalstellen, die von Attributen zur Definition der Formgeometrie wie <code>x</code>, <code>y</code>, <code>width</code>, <code>height</code>, <code>r</code> oder <code>d</code> zu verwenden ist.
+geometry-precision-hint = Genauigkeit, in Form von Dezimalstellen, die von Attributen zur Definition der Formgeometrie wie <code>x</code>, <code>y</code>, <code>width</code>, <code>height</code>, <code>r</code> oder <code>d</code> verwendet werden.
 generate-random-colors = Zufällige Farben generieren
 generating-preview = Vorschau generieren
 generators = Generatoren
@@ -845,7 +846,7 @@ generators = Generatoren
   .jigsaw-puzzle = Puzzle
   .rasterize = Rasterisieren
   .vectorize = Vektorisieren
-  .pixelate = Pixelieren
+  .pixelate = Verpixeln
   .triangulate = Triangulieren
   .asciify = Asciieren
   .primitivize = Primitivisieren
@@ -853,10 +854,10 @@ generators = Generatoren
   .printing-marks = Druckmarken
   .resize-view-to-fit-objects = Ansicht an Objekte anpassen
   .add-unique-ids = Eindeutige IDs hinzufügen
-get-boxy-svg = Boxy SVG erhalten
+get-boxy-svg = Boxy SVG herunterladen
 glyph-rotation = Glyphendrehung
 grab = Greifen
-grab-paint-color = Farbe greifen
+grab-paint-color = Farbe aufnehmen
 gradient = Farbverlauf
 gradient-id = Farbverlauf ID
 gradient-spread = Überlauf
@@ -899,7 +900,7 @@ homepage = Offizielle Website
 hue-rotation = Farbtondrehung
 icon = Ikone
   .normal = Normal
-  .monochromatic = Monochromatische
+  .monochromatic = Einfarbig
 icons = Ikonen
 icon-variant = Variante
   .all = Alle
@@ -927,7 +928,7 @@ import-from-url = Importieren von URL
 increase = Vergrößern
 increase-indent = Einrückung vergrößern
 indentation = Einrückung
-indentation-hint = Anzahl der Raumfahrtzeichen, die zum Einrücken von SVG-Code verwendet werden.
+indentation-hint = Anzahl der Leerzeichen, die zum Einrücken von SVG-Code verwendet werden.
 inherit = Erben
 inner-radius = Innenradius
 inner-radius-x = Innenradius X
@@ -1016,7 +1017,7 @@ language = Sprache
   .vi = Vietnamesisch
   .cy = Walisisch
 launch-app = App starten
-legal = Begriffe
+legal = AGB & Datenschutz
 length = Länge
 letter-spacing = Buchstabenabstand
 library = Bibliothek
@@ -1118,7 +1119,7 @@ marker = Markierung
 marker-id = Markierung ID
 marker-title = Titel der Markierung
 markers = Markierungen
-markup = Markup
+markup = Quelltext
 mask = Maskieren
 masked = Maskiert
 masking = Maskierung
@@ -1129,7 +1130,7 @@ merge-all-windows = Alle Fenster zusammenführen
 message = Nachricht
 message-sent = Nachricht gesendet
   .detail = Wir werden uns innerhalb der nächsten 48 Stunden mit Ihnen in Verbindung setzen.
-meta = Meta
+meta = Metadaten
 minimize = Minimieren
 minimize-window = Fenster minimieren
 maximize = Maximieren
@@ -1175,7 +1176,7 @@ noise = Rauschen
 none = Keine
 non-unique-id = Nicht eindeutige ID
 normalize = Normalisieren
-  .convert-texts-to-paths = Texte in Pfade konvertieren
+  .convert-texts-to-paths = Texte in Pfade umwandeln
   .remove-embedded-fonts = Eingebettete Schriften entfernen
   .remove-non-standard-namespaces = Nicht standardisierte Namensräume entfernen
   .remove-hidden-objects = Ausgeblendete Objekte entfernen
@@ -1260,7 +1261,7 @@ paint-order = Malordnung
 paint-type = Maltyp
 palette = Palette
 pan = Verschieben
-panels = Paneele
+panels = Bedienfelder
 paragraph = Absatz
 parameters = Parameter
 parliament-hall-radius = Radius der Halle
@@ -1335,19 +1336,19 @@ preset-filters = Voreingestellte Filter
   .brightness = Helligkeit
   .contrast = Kontrast
   .opacity = Deckkraft
-  .posterize = Plakatieren
+  .posterize = Posterisieren
   .duotone = Duotone
   .x-ray = Röntgenbild
 press = Presse
 press-hint =
-  <p>Die nachstehend bereitgestellten Marketing-Assets können in Artikeln, Rezensionen und Tutorials von Drittanbietern, die sich mit Boxy SVG beschäftigen, frei wiederverwendet werden.</p>
+  <p>Die nachstehend bereitgestellten Marketing-Assets können in Artikeln, Rezensionen und Tutorials von Drittparteien, die sich mit Boxy SVG beschäftigen, frei wiederverwendet werden.</p>
 press-new-shortcut = Neue Tastenkombination drücken
 pressure = Druck
 preview = Vorschau
 previous-tool = Vorheriges Werkzeug
 price = Preis
   .free = Kostenlos
-  .yearly-subscription = jährliches Abonnement
+  .yearly-subscription = Jahresbeitrag
   .one-time-payment = einmalige Zahlung
 price-proration-hint =
   Bei der Änderung eines bestehenden Abonnements wird der fällige Gesamtbetrag anteilig berechnet.
@@ -1399,7 +1400,7 @@ reference-point = Referenzpunkt
 refresh = Aktualisieren
 region = Region
 register = Registrieren
-register-to-start-15-day-free-trial = Registrieren Sie sich, um die <strong>15-tägige kostenlose Testversion</strong> zu starten.
+register-to-start-15-day-free-trial = Registrieren Sie sich und starten die <strong>15-tägige Testversion</strong>
 registration-failed = Registrierung fehlgeschlagen
 relative-to = Relativ zu
   .default-view = Standard Ansicht
@@ -1426,7 +1427,7 @@ reset-control-point = Kontrollpunkt zurücksetzen
 reset-control-points = Kontrollpunkte zurücksetzen
 reset-password = Passwort zurücksetzen
 reset-password-hint = Geben Sie die E-Mail-Adresse ein, mit der Sie sich registriert haben, und folgen Sie den Anweisungen, die wir Ihnen schicken.
-reset-zoom = Zurücksetzen des Zooms
+reset-zoom = Auf Standard-Zoomstufe zurücksetzen
 resize = Größe ändern
 reverse = Umkehren
 reverse-gradient = Farbverlauf umkehren
@@ -1509,16 +1510,16 @@ shadows-color = Farbe des Schattens
 shape = Form
 shapes = Formen
 shapes-per-iteration = Formen pro Iteration
-shape-to-path = Form in Pfad konvertieren
-share = Gemeinsames Nutzen
+shape-to-path = Form in Pfad umwandeln
+share = Teilen
 share-file = Datei teilen
   .url-hint = Verwenden Sie diese URL, um die Datei an andere Personen weiterzugeben oder auf anderen Websites einzubetten.
 shift = Verschiebung
 shortcut = Tastaturkürzel
 shortcuts = Tastaturkürzel
   .all = Alle
-  .custom = Benutzerdefinierte
-  .conflicting = Kollidierende
+  .custom = Benutzerdefiniert
+  .conflicting = Kollidierend
 show = Anzeigen
 show-all = Alles anzeigen
 show-ids = IDs anzeigen
@@ -1529,13 +1530,13 @@ show-previous-tab = Vorherigen Tab anzeigen
 show-tooltips = Tooltips anzeigen
 show-view-outline-above-objects = Ansichtskontur über den Objekten anzeigen
 simplify = Vereinfachen
-simplify-path = Vereinfachen den Pfad
+simplify-path = Pfad vereinfachen
 size = Größe
   .auto = Auto
-  .random = Zufällige
-  .fixed = Feste
-  .medium = Mittlere
-  .large = Große
+  .random = Zufällig
+  .fixed = Fest
+  .medium = Mittel
+  .large = Groß
 skew = Scheren
 skin-tone = Hautton
   .all = Alle
@@ -1562,7 +1563,7 @@ source-x = Quelle X
 source-y = Quelle Y
 source-z = Quelle Z
 space-key = Leertaste
-  .toggles-previous-tool = Schaltet das vorherige Werkzeug um
+  .toggles-previous-tool = Wechselt zum vorherigen Tool
   .pans-the-canvas = Verschiebt die Leinwand
 spacing = Abstand
   .letter = Buchstaben
@@ -1608,13 +1609,13 @@ strikethrough = Durchgestrichen
 stroke = Kontur
 stroke-color = Konturfarbe
 stroke-opacity = Konturdeckkraft
-stroke-to-path = Kontur in Pfad konvertieren
+stroke-to-path = Kontur in Pfad umwandeln
 stroke-width = Konturbreite
   .non-scaling = Nicht skalierende
   .scaling = skalierende
 style = Stil
 subheading = Unterüberschrift
-subject = Thema
+subject = Betreff
 subscribe = Abonnieren
 subregion = Unterregion
 subscription = Abonnement
@@ -1657,8 +1658,8 @@ text-decoration = Textdekoration
   .remove-underline = Unterstrich entfernen
   .remove-line-through = Durchstrich entfernen
   .remove-overline = Überstrich entfernen
-text-on-path = Text auf Pfad
-text-path = Text Pfad
+text-on-path = Text an Pfad ausrichten
+text-path = Pfadtext
 text-transform = Texttransformation
   .capitalize = Großschreiben
   .uppercase = Großbuchstaben
@@ -1673,74 +1674,74 @@ tour-ui =
   .title = Intuitive Benutzeroberfläche
   .description =
     <p>Boxy SVG basiert auf der Idee, dass Benutzeroberflächen aus dem Weg geräumt werden sollten. Es gibt keinen überfüllten Arbeitsbereich mit sich überlappenden Dialogen oder Dutzenden von geöffneten Paletten und Symbolleisten. Ihre Illustration steht im Mittelpunkt.</p>
-    <p>Ob es sich um die Bearbeitung von Formen oder die Anpassung von Farbverlaufsfüllungen handelt, die <strong>meisten</strong> Aktionen finden <strong>direkt auf der</strong> Leinwand statt. Die Feinsteuerung der Änderungen erfolgt über Bedienfelder, die Sie mit einem einzigen Klick oder Tastendruck ein- und ausblenden können.</p>
-    <p>Viele Funktionen sind über <strong>Tastenkombinationen</strong> zugänglich, die Sie nach Ihren Wünschen anpassen können, was besonders nützlich ist, wenn Sie durch die jahrelange Arbeit mit anderen Vektorgrafik-Editoren bereits über ein gutes Muskelgedächtnis verfügen.</p>
+    <p>Ob es sich um die Bearbeitung von Formen oder die Anpassung von Farbverlaufsfüllungen handelt, <strong>die meisten Aktionen finden direkt auf der Leinwand statt</strong>. Die Feinsteuerung der Änderungen erfolgt über Bedienfelder, die Sie mit einem einzigen Klick oder Tastendruck ein- und ausblenden können.</p>
+    <p>Viele Funktionen sind über <strong>Tastaturkürzel</strong> zugänglich, die Sie nach Ihren Wünschen anpassen können, was besonders nützlich ist, wenn Sie durch die jahrelange Arbeit mit anderen Vektorgrafik-Editoren bereits über ein ausgeprägtes Muskelgedächtnis verfügen.</p>
 tour-svg =
   .title = Native SVG-Unterstützung
   .description =
     <p>Boxy SVG verwendet <strong>Scalable Vector Graphics (SVG)</strong> als natives Dokumentenformat. Mit SVG gibt es keine Herstellerbindung. Es ist ein <strong>offener Standard</strong> für das Web, genau wie HTML5 und CSS, der vom World Wide Web Consortium entwickelt wurde und an dem zahlreiche Akteure aus verschiedenen Branchen beteiligt sind.</p>
-    <p>Sie brauchen Ihr Originaldokument nicht in einem proprietären Dateiformat zu speichern, ständig nach SVG zu exportieren und es jedes Mal zu bereinigen, bevor Sie es verwenden können. Erstellen Sie einfach eine neue Illustration oder öffnen Sie eine bestehende, zeichnen Sie, speichern Sie. Das ist alles.</p>
+    <p>Sie brauchen Ihr Originaldokument nicht in einem proprietären Dateiformat zu speichern, ständig nach SVG zu exportieren und es jedes Mal zu bereinigen, bevor Sie es verwenden können. Erstellen Sie einfach eine neue Illustration oder öffnen Sie eine bestehende, zeichnen, speichern. Das ist alles.</p>
     <p>Alle Ihre mit Boxy SVG erstellten Dokumente sind <strong>100% standardkonform</strong>. Sie können mit anderer Autorensoftware bearbeitet werden und werden in den meisten Desktop- und mobilen Webbrowsern korrekt wiedergegeben, da Boxy SVG <strong>von der Chromium-Engine unterstützt</strong> wird.</p>
-    <p>Das Programm macht es auch einfach, Illustrationen zu erstellen, die sofort für die Veröffentlichung im Web bereit sind. Boxy SVG verfolgt automatisch nicht verwendete Definitionen wie Farbverläufe und Muster und entfernt sie, um den endgültigen SVG-Code sauber und frei von Ballast zu halten.</p>
+    <p>Das Programm macht es auch einfach, Illustrationen zu erstellen, die sofort für die Veröffentlichung im Web bereit sind. Boxy SVG registriert automatisch nicht verwendete Definitionen wie Farbverläufe und Muster und entfernt sie, um den endgültigen SVG-Code sauber und frei von überflüssigem Programmcode zu halten.</p>
     <p>Zusätzliche Optionen geben Ihnen die Kontrolle über die Einrückung des SVG-Codes sowie über die Geometrie- und Transformationspräzision, die auch die Größe der endgültigen Dokumente beeinflusst.</p>
 tour-filters =
   .title = Filter-Effekte
   .description =
-    <p>Wenden Sie visuelle Effekte auf Bitmap- und Vektoren-Objekte gleichermaßen mit SVG-Filtern an. Boxy SVG enthält <strong>mehr als 20 voreingestellte Filter</strong> für gängige Anwendungsfälle wie:</p>
+    <p>Wenden Sie visuelle Effekte gleichermaßen auf Bitmap- und Vektor-Objekte mithilfe von SVG-Filtern an. Boxy SVG enthält <strong>mehr als 20 voreingestellte Filter</strong> für gängige Anwendungsfälle wie:</p>
     <ul>
       <li>Farbmanipulation, z.B. "Graustufen", "Sepia" und "Duotone"</li>
       <li>Verzerrung, z.B. "Bewegungsunschärfe", "Warp" und "Morphologie"</li>
-      <li>Dekoration, z. B. "Schlagschatten", "Punktlicht" und "Umriss".</li>
+      <li>Ausgestaltung, z. B. "Schlagschatten", "Spotlight" und "Umriss".</li>
     </ul>
-    <p>Alle voreingestellten Filter haben <strong>benutzerfreundliche, beschreibende Einstellungen</strong>. Alle Änderungen, die Sie vornehmen, werden sofort auf der Leinwand gerendert und können später jederzeit nachgebessert werden. Öffnen Sie einfach das Bedienfeld "Komposition", wählen Sie ein Objekt mit einem Filter aus, und nehmen Sie weitere Anpassungen vor.</p>
-    <p>Sie können sogar noch einen Schritt weiter gehen und <strong>Ihre eigenen Filter erstellen</strong>. Boxy SVG bietet eine einfach zu bedienende Schnittstelle, um komplexe Effekte aus einfachen Primitiven zu erstellen. Öffnen Sie das Bedienfeld "Definitionen", erstellen Sie einen benutzerdefinierten SVG-Filter, fügen Sie einige Filterbausteine hinzu und ordnen Sie diese in einem Diagramm mit sofortiger Vorschau auf der Leinwand an.</p>
-    <p>Alle SVG-Filter werden von den <strong>meisten Webbrowsern nativ unterstützt</strong>. Sie müssen Ihre Illustrationen nicht in Bitmaps exportieren oder komplexen JavaScript-Code schreiben, um sie auf einer Website korrekt anzuzeigen.</p>
+  <p>Alle voreingestellten Filter haben <strong>benutzerfreundliche, beschreibende Einstellungen</strong>. Alle Änderungen, die Sie vornehmen, werden sofort auf der Leinwand gerendert und können später jederzeit nachgebessert werden. Öffnen Sie einfach das Bedienfeld "Komposition", wählen Sie ein Objekt mit einem Filter aus, und nehmen Sie weitere Anpassungen vor.</p>
+  <p>Sie können sogar noch einen Schritt weiter gehen und <strong>Ihre eigenen Filter erstellen</strong>. Boxy SVG bietet eine einfach zu bedienende Schnittstelle, um komplexe Effekte aus einfachen Primitiven zu erstellen. Öffnen Sie das Bedienfeld "Definitionen", erstellen Sie einen benutzerdefinierten SVG-Filter, fügen Sie einige Filterbausteine hinzu und ordnen Sie diese in einem Diagramm mit sofortiger Vorschau auf der Leinwand an.</p>
+  <p>Alle SVG-Filter werden von den <strong>meisten Webbrowsern nativ unterstützt</strong>. Sie müssen Ihre Illustrationen nicht als Bitmap exportieren oder komplexen JavaScript-Code schreiben, um sie korrekt auf einer Website anzuzeigen.</p>
 tour-typography =
   .title = Fortgeschrittene Typografie
   .description =
-    <p>Erstellen Sie schöne Beschriftungen mit einer der <strong>über 1.000 Schriften</strong> aus dem Google Fonts-Verzeichnis oder importieren und betten Sie <strong>WOFF-, TTF- und OTF-Schriftdateien</strong> von Ihrer Festplatte ein.</p>
-    <p>Übernehmen Sie die vollständige Kontrolle über die Gestaltung von Text. Wenden Sie Unterstrichenes, Durchgestrichenes und Überstrichenes an, nutzen Sie verschiedene Optionen für die Groß- und Kleinschreibung, wenden Sie flache, verlaufende oder Muster-Füllungen und Konturen an.</p>
+    <p>Erstellen Sie hochwertige Beschriftungen mit einer der <strong>mehr als 1.000 Schriften</strong>, die im Google Fonts-Verzeichnis verfügbar sind, oder importieren und betten Sie <strong>WOFF-, TTF- und OTF-Schriftdateien</strong> von Ihrer Festplatte ein.</p>
+    <p>Übernehmen Sie die vollständige Kontrolle über die Gestaltung von Texten, indem Sie Unterstreichungs-, Durchstreichungs- und Überstrichelemente anwenden, verschiedene Optionen für die Groß- und Kleinschreibung nutzen sowie flache, verlaufende oder gemusterte Füllungen und Konturen verwenden.<//p>
     <p>Verwenden Sie die <strong>Abstandsoptionen</strong>, um den Abstand zwischen allen Zeichen, Wörtern und Zeilen zu steuern, oder verwenden Sie das Bearbeitungswerkzeug, um jede Glyphe frei zu positionieren.</p>
-    <p>Erstellen Sie <strong>Text auf</strong> Pfaden mit nur einem Klick und passen Sie den Versatz an, um die optimale Position des Textes auf der Kurve zu finden.</p>
+    <p> Erstellen Sie <strong>Pfadtext</strong> mit nur einem Klick und passen Sie den Versatz an, um die optimale Textposition auf der Kurve zu finden.</p>
 tour-developer =
   .title = Werkzeuge für Entwickler
   .description =
-    <p><strong>Überprüfen Sie den zugrunde liegenden SVG- und CSS-Code</strong> ganz einfach mit dem integrierten Bedienfeld "Elemente". Das Prinzip ist dasselbe wie bei den Werkzeugen für Webentwickler, die in gängigen Webbrowsern verfügbar sind.</p>
-    <p>Sie können das Bedienfeld "Elemente" verwenden, um <strong>sowohl SVG- als auch CSS-Code direkt vor Ort zu bearbeiten</strong>. Die Leinwand und der Code-Inspektor sind perfekt aufeinander abgestimmt: Wenn Sie in einem der beiden Bereiche eine Änderung vornehmen, wird der Inhalt des anderen automatisch aktualisiert.</p>
+    <p><strong>Überprüfen Sie den zugrunde liegenden SVG- und CSS-Code</strong> ganz einfach mit dem integrierten Bedienfeld "Elemente". Das Prinzip ist dasselbe wie bei Webentwickler-Tools, die in gängigen Webbrowsern verfügbar sind.</p>
+    <p>Sie können das Bedienfeld "Elemente" verwenden, um <strong>sowohl SVG- als auch CSS-Code an Ort und Stelle zu bearbeiten</strong>. Die Leinwand und der Code-Inspektor sind perfekt aufeinander abgestimmt: Wenn Sie in einem der beiden Bereiche eine Änderung vornehmen, wird der Inhalt des anderen automatisch aktualisiert.</p>
     <p>Der Inspektor ermöglicht auch das <strong>Kopieren und Einfügen von SVG-Codefragmenten</strong> zwischen Boxy SVG und externen Programmen wie Texteditoren.</p>
 tour-export =
   .title = Optionen für den Export
   .description =
     <p>Übertragen Sie Ihre Arbeit einfach in Dateiformate wie <strong>PNG, JPEG, GIF, WebP und PDF</strong>. Für jeden unterstützten Dateityp bietet Boxy SVG formatspezifische Exportoptionen wie Komprimierung, Auflösung, Hintergrundfarbe und viele andere.</p>
     <p>Beim Speichern in SVG können Sie die Dateigröße <strong>minimieren</strong>, indem Sie optional eingebettete Schriften und nicht standardmäßige Markup-Elemente entfernen.</p>
-    <p>Für alle Dateitypen können Sie den Exportbereich manuell festlegen oder schnell zwischen dem Export aller Objekte und dem Export der aktuellen Auswahl wechseln.</p>
+    <p>Sie können den Exportbereich für alle Dateitypen manuell festlegen oder schnell zwischen dem Export aller Objekte und dem Export der aktuellen Auswahl wechseln.</p>
     <p>Der Bereich "Vorschau" bietet einen Überblick über das endgültige Rendering und berechnet die Dateigröße, um Sie bei der Optimierung für das Web zu unterstützen.</p>
 tour-library =
-  .title = Vermögen Bibliothek
+  .title = Asset-Bibliothek
   .description =
     <p>Greifen Sie auf Millionen hochwertiger <strong>Stockfotos und Vektorillustrationen</strong> von <a
     rel="noopener" href="https://pixabay.com/">Pixabay</a>, Hunderte von <strong>Farbpaletten</strong>von <a rel="noopener" href="https://colorhunt.co/">ColorHunt</a> und über tausend <strong>Schriften</strong> aus dem <a rel="noopener" href="https://fonts.google.com/">Google Fonts-Verzeichnis</a>zu.</p>
-    <p>Benötigen Sie eine serifenlose Schrift mit Zeichen aus dem griechischen Alphabet oder vielleicht alle Vektoren mit Schuhen aus der Kategorie "Sport"? Suchen Sie nach einem Stichwort, um eine erste Auswahl zu treffen, und wenden Sie dann einen Schnellfilter an, um die Suchergebnisse einzugrenzen. Wenn Sie das gewünschte Bild gefunden haben, <strong>ziehen Sie</strong>es einfach <strong>per Drag &amp; Drop</strong>auf die Leinwand, um es zu verwenden.</p>
+    <p>Benötigen Sie eine serifenlose Schrift mit Zeichen aus dem griechischen Alphabet oder vielleicht alle Vektoren mit Schuhen aus der Kategorie "Sport"? Suchen Sie nach einem Stichwort, um eine erste Auswahl zu treffen, und wenden Sie dann einen Schnellfilter an, um die Suchergebnisse einzugrenzen. Wenn Sie das gewünschte Asset gefunden haben, <strong>ziehen Sie</strong>es einfach <strong>per Drag &amp; Drop</strong>auf die Leinwand, um es zu verwenden.</p>
     <p>Alle Assets sind unter <strong>freien Lizenzen</strong> veröffentlicht und können in kommerziellen Projekten frei verwendet werden, ohne dass Lizenzgebühren anfallen.</p>
 tour-tracing =
-  .title = Bildverfolgung
+  .title = Bildnachzeichnung
   .description =
-    <p>Boxy SVG bietet bequeme Werkzeuge zur Erstellung von Vektorgrafiken aus Bitmaps, mit einer Vielzahl von stilistischen Ansätzen.</p>
-    <p>Verwenden Sie den <strong>Generator</strong> "Vektorisieren", um eine skalierbare Zeichnung zu erstellen, die der ursprünglichen Bitmap so nahe wie möglich kommt. Wählen Sie eine Voreinstellung wie "Graustufen" oder "Plakatiert" oder verwenden Sie die erweiterten Optionen, die Ihnen volle Kontrolle über das Vektorisieren bieten.</p>
-    <p>Wählen Sie den <strong>Generator Pixelate</strong>, um ein Muster aus großen Farbblöcken zu generieren, das dem Mosaikeffekt ähnelt.</p>
-    <p>Verwenden Sie den <strong>Generator</strong> " <strong>Triangulieren"</strong> oder " <strong>Primitivisieren"</strong>, um eine skalierbare Variante des ursprünglichen Bitmap-Bildes mit Annäherung an geometrische Grundformen wie Dreiecke zu erstellen.</p>
+    <p>Boxy SVG bietet bequeme Tools zur Erstellung von Vektorgrafiken anhand von Bitmaps, mit einer Vielzahl von stilistischen Ansätzen.</p>
+    <p>Verwenden Sie den <strong>Generator "Vektorisieren"</strong>, um eine skalierbare Zeichnung zu erstellen, die der ursprünglichen Bitmap-Abbildung so nahe wie möglich kommt. Wählen Sie eine Voreinstellung wie "Graustufen" oder "Posterisiert" oder verwenden Sie die erweiterten Optionen, die Ihnen volle Kontrolle über die Vektorisierung bieten.</p>
+    <p>Wählen Sie den <strong>Generator Verpixeln</strong>, um ein Muster aus großen Farbblöcken zu generieren, das dem Mosaik-Effekt ähnelt.</p>
+    <p>Verwenden Sie den <strong>Generator "Triangulieren"</strong> oder <strong>"Primitivisieren"</strong>, um eine skalierbare Variante des ursprünglichen Bitmap-Bildes mit Annäherung an geometrische Grundformen wie Dreiecke zu erstellen.</p>
 tour-symbols =
   .title = Wiederverwendbare Symbole
   .description =
-    <p>Verwenden Sie das Panel "Definitionen", um <strong>SVG-Symbole zu verwalten</strong>. Mit nur ein oder zwei Klicks können Sie neue Symbole erstellen und bearbeiten, ihre IDs und Titel umbenennen.</p>
-    <p>Ziehen Sie ein Symbol aus dem Bedienfeld "Definitionen" auf die Leinwand, um seine Instanz zu erstellen. Alle Instanzen eines Symbols werden automatisch aktualisiert, sobald Sie das Original ändern.</p>
+    <p>Verwenden Sie das Bedienfeld "Definitionen" zur <strong>Verwaltung von SVG-Symbolen</strong>. Mit nur ein oder zwei Klicks können Sie neue Symbole erstellen und bearbeiten, sowie ihre IDs und Titel ändern.</p>
+    <p>Ziehen Sie ein Symbol aus dem Bedienfeld "Definitionen" auf die Arbeitsfläche, um seine Instanz zu erstellen. Alle Instanzen eines Symbols werden automatisch aktualisiert, sobald Sie das Original ändern.</p>
     <p>Boxy SVG ist auch in der Lage, <strong>SVG-Sprites</strong> zu bearbeiten, die verwendet werden, um komplette Symbolsätze im Web zu speichern. Bei sehr großen Sprites können Sie die Filteroption verwenden, um Symbole anhand ihrer Namen oder IDs zu finden.</p>
-    <p>Die erweiterte Kontrolle über die Ansichtsbox <strong>und das</strong> Ansichtsfenster jedes Symbols wird durch das Panel "Geometrie" gewährleistet.</p>
+    <p>Das Bedienfeld "Geometrie" bietet eine erweiterte Kontrolle über <strong>die Ansichtsbox</strong> und <strong>das Ansichtsfenster</strong> jedes Symbols.</p>
 transform = Transformation
 transform-gradient = Farbverlauf transformieren
 transform-pattern = Muster transformieren
 transform-precision = Präzision der Transformation
-transform-precision-hint = Genauigkeit, in Anzahl der Dezimalstellen, die vom Attribut <code>transform</code> verwendet werden soll.
+transform-precision-hint = Genauigkeit, in Anzahl der Dezimalstellen, die vom Attribut <code>transform</code> verwendet werden.
 transparency = Transparenz
 treat-selection-as-group = Auswahl als Gruppe behandeln
 triangle = Dreieck
@@ -1749,37 +1750,37 @@ try-redefining-search-criteria = Versuchen Sie, Ihre Suchkriterien neu zu defini
 tutorials = Tutorials
 tutorial-selecting-objects =
   .title = Auswählen von Objekten
-  .description = Wählen Sie ein oder mehrere Objekte aus.
+  .description = Auswahl von einem oder mehreren Objekten.
 tutorial-transforming-objects =
   .title = Objekte transformieren
-  .description = Verschieben, Skalieren, Neigen und Drehen von Objekten.
+  .description = Verschieben, Skalieren, Scheren und Drehen von Objekten.
 tutorial-paths =
   .title = Pfade
   .description = Zeichnen und Bearbeiten von Pfaden.
 tutorial-shapes =
   .title = Formen
-  .description = Zeichnen und bearbeiten Sie Formen wie Rechtecke, Kreise, Ellipsen, Sterne und mehr.
+  .description = Zeichnen und bearbeiten von Formen wie Rechtecken, Kreisen, Ellipsen, Sternen und mehr.
 tutorial-fill-and-stroke =
   .title = Füllung und Kontur
-  .description = Ändern Sie die Füllung und Kontur eines Objekts.
+  .description = Ändern die Füllung und Kontur eines Objekts.
 tutorial-compositing =
   .title = Komposition
-  .description = Wenden Sie Filter, Mischmodi, Beschneidungspfade und Masken auf ein Objekt an.
+  .description = Anwendung von Filtern, Mischmodi, Beschneidungspfaden und Masken auf ein Objekt.
 tutorial-text-and-fonts =
   .title = Text und Schriften
-  .description = Erstellen und bearbeiten Sie Text.
+  .description = Erstellung und Bearbeitung von Text.
 tutorial-symbols =
   .title = Symbole
-  .description = Erstellen und bearbeiten Sie wiederverwendbare Symbole.
+  .description = Erstellung und Bearbeitung von wiederverwendbaren Symbolen.
 tutorial-views =
   .title = Ansichten
   .description = Standard- und benutzerdefinierte Ansichten manipulieren.
 tutorial-metadata =
   .title = Metadaten
-  .description = Bearbeiten Sie Titel, Beschreibung, ID und andere Metadaten eines Objekts.
+  .description = Bearbeitung von Titel, Beschreibung, ID und anderen Metadaten eines Objekts.
 tutorial-library =
   .title = Bibliothek
-  .description = Holen Sie sich Fotos, Vektoren, Farbpaletten und Schriften aus einer öffentlichen Bibliothek.
+  .description = Abrufen von Fotos, Vektoren, Farbpaletten und Schriften aus einer öffentlichen Bibliothek.
 tutorial-export =
   .title = Exportieren
   .description = Exportieren Sie Ihr Bildmaterial in PNG, JPEG, GIF, WebP, SVG, SVGZ, HTML oder PDF.
@@ -1788,7 +1789,7 @@ typography = Typografie
 ui = UI
 unclip = Unclippen
 underline = Unterstrichen
-undo = Widerrufen
+undo = Rückgängig machen
 ungroup = Ungruppieren
 unhide = Einblenden
 unhide-all = Alles einblenden
@@ -1831,7 +1832,7 @@ vectorize-preset = Voreinstellung
   .default = Standard
   .black-and-white = Schwarz und weiß
   .grayscale = Graustufen
-  .posterized = Plakatiert
+  .posterized = Posterisiert
   .curvy = Kurvenreich
   .sharp = Scharf
   .detailed = Ausführlich
