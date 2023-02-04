@@ -222,8 +222,8 @@ boolean-operations = Boolesche Operationen
   .subtract = Subtrahieren
   .exclude = Ausschließen
 bowing = Krümmung
-break = Unterbrechen
-break-nodes = Knoten unterbrechen
+break = Zerlegen
+break-nodes = Knoten zerlegen
 bring-all-to-front = Alles nach vorne bringen
 bug = Fehler
   .open = Offen
@@ -1213,7 +1213,7 @@ opacity = Deckkraft
   .fixed = Feste
   .random = Zufällige
 open = Öffnen
-open-from-cloud = Öffnen aus Wolke
+open-from-cloud = Öffnen aus Cloud
 open-from-disk = Öffnen von Festplatte
 open-in-new-tab = Öffnen in neuem Tab
 open-path = Pfad öffnen
@@ -1429,7 +1429,7 @@ reset-password = Passwort zurücksetzen
 reset-password-hint = Geben Sie die E-Mail-Adresse ein, mit der Sie sich registriert haben, und folgen Sie den Anweisungen, die wir Ihnen schicken.
 reset-zoom = Auf Standard-Zoomstufe zurücksetzen
 resize = Größe ändern
-reverse = Umkehren
+reverse = Richtung umkehren
 reverse-gradient = Farbverlauf umkehren
 reverse-order = Ordnung umkehren
 rgb = RGB
@@ -1460,16 +1460,16 @@ save-and-host-svg-files-in-cloud = Speichern und Hosten von SVG-Dateien in der C
 save-as = {$os ->
   [macos] Sichern
  *[other] Speichern
-} als
+} unter
 save-svg-files-to-disk = SVG-Dateien auf einem Datenträger speichern
 save-to-cloud-as = {$os ->
   [macos] Sichern
  *[other] Speichern
-} in Cloud als
+} in Cloud unter
 save-to-disk-as = {$os ->
   [macos] Sichern
  *[other] Speichern
-} auf Festplatte als
+} auf Festplatte unter
 scalable-vector-graphics-editor = Editor für skalierbare Vektorgrafiken
 scale = Skala
 scale--verb = Skalieren
@@ -1582,9 +1582,9 @@ spline = Spline
   .rom = Catmull-Rom
   .basis = Basis
   .levien = Levien
-split = Unterbrechen
-split-nodes = Knoten unterbrechen
-split-paths = Pfade unterbrechen
+split = Aufspalten
+split-nodes = Knoten aufspalten
+split-paths = Pfade aufspalten
 spokes = Speichen
 spoke-targets = Ziele der Speichen
 spread = Verbreitung
@@ -1652,16 +1652,16 @@ text-anchor = Textankerr
   .middle = Mitte
   .end = Ende
 text-decoration = Textdekoration
-  .underline = Unterstrich
-  .line-through = Durchgestrich
-  .overline = Überstrich
-  .remove-underline = Unterstrich entfernen
-  .remove-line-through = Durchstrich entfernen
-  .remove-overline = Überstrich entfernen
+  .underline = Unterstreichen
+  .line-through = Durchgestrichen
+  .overline = Überschreiben
+  .remove-underline = Unterstreichen entfernen
+  .remove-line-through = Durchgestrichen entfernen
+  .remove-overline = Überschreiben entfernen
 text-on-path = Text an Pfad ausrichten
 text-path = Pfadtext
 text-transform = Texttransformation
-  .capitalize = Großschreiben
+  .capitalize = Großschreibung
   .uppercase = Großbuchstaben
   .lowercase = Kleinbuchstaben
   .none = Keine
@@ -1790,7 +1790,7 @@ ui = UI
 unclip = Unclippen
 underline = Unterstrichen
 undo = Rückgängig machen
-ungroup = Ungruppieren
+ungroup = Gruppierung aufheben
 unhide = Einblenden
 unhide-all = Alles einblenden
 units = Einheiten
