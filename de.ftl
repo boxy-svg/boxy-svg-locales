@@ -1716,15 +1716,15 @@ tour-library =
   .title = Asset-Bibliothek
   .description =
     <p>Greifen Sie auf Millionen hochwertiger <strong>Stockfotos und Vektorillustrationen</strong> von <a
-    rel="noopener" href="https://pixabay.com/">Pixabay</a>, Hunderte von <strong>Farbpaletten</strong>von <a rel="noopener" href="https://colorhunt.co/">ColorHunt</a> und über tausend <strong>Schriften</strong> aus dem <a rel="noopener" href="https://fonts.google.com/">Google Fonts-Verzeichnis</a>zu.</p>
-    <p>Benötigen Sie eine serifenlose Schrift mit Zeichen aus dem griechischen Alphabet oder vielleicht alle Vektoren mit Schuhen aus der Kategorie "Sport"? Suchen Sie nach einem Stichwort, um eine erste Auswahl zu treffen, und wenden Sie dann einen Schnellfilter an, um die Suchergebnisse einzugrenzen. Wenn Sie das gewünschte Asset gefunden haben, <strong>ziehen Sie</strong>es einfach <strong>per Drag &amp; Drop</strong>auf die Leinwand, um es zu verwenden.</p>
+    rel="noopener" href="https://pixabay.com/">Pixabay</a>, Hunderte von <strong>Farbpaletten</strong> von <a rel="noopener" href="https://colorhunt.co/">ColorHunt</a> und über tausend <strong>Schriften</strong> aus dem <a rel="noopener" href="https://fonts.google.com/">Google Fonts-Verzeichnis</a>zu.</p>
+    <p>Benötigen Sie eine serifenlose Schrift mit Zeichen aus dem griechischen Alphabet oder vielleicht alle Vektoren mit Schuhen aus der Kategorie "Sport"? Suchen Sie nach einem Stichwort, um eine erste Auswahl zu treffen, und wenden Sie dann einen Schnellfilter an, um die Suchergebnisse einzugrenzen. Wenn Sie das gewünschte Asset gefunden haben, <strong>ziehen Sie</strong> es einfach <strong>per Drag &amp; Drop</strong> auf die Leinwand, um es zu verwenden.</p>
     <p>Alle Assets sind unter <strong>freien Lizenzen</strong> veröffentlicht und können in kommerziellen Projekten frei verwendet werden, ohne dass Lizenzgebühren anfallen.</p>
 tour-tracing =
   .title = Bildnachzeichnung
   .description =
     <p>Boxy SVG bietet bequeme Tools zur Erstellung von Vektorgrafiken anhand von Bitmaps, mit einer Vielzahl von stilistischen Ansätzen.</p>
     <p>Verwenden Sie den <strong>Generator "Vektorisieren"</strong>, um eine skalierbare Zeichnung zu erstellen, die der ursprünglichen Bitmap-Abbildung so nahe wie möglich kommt. Wählen Sie eine Voreinstellung wie "Graustufen" oder "Posterisiert" oder verwenden Sie die erweiterten Optionen, die Ihnen volle Kontrolle über die Vektorisierung bieten.</p>
-    <p>Wählen Sie den <strong>Generator Verpixeln</strong>, um ein Muster aus großen Farbblöcken zu generieren, das dem Mosaik-Effekt ähnelt.</p>
+    <p>Wählen Sie den <strong>Generator "Verpixeln"</strong>, um ein Muster aus großen Farbblöcken zu generieren, das dem Mosaik-Effekt ähnelt.</p>
     <p>Verwenden Sie den <strong>Generator "Triangulieren"</strong> oder <strong>"Primitivisieren"</strong>, um eine skalierbare Variante des ursprünglichen Bitmap-Bildes mit Annäherung an geometrische Grundformen wie Dreiecke zu erstellen.</p>
 tour-symbols =
   .title = Wiederverwendbare Symbole
