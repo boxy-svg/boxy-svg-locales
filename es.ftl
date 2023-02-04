@@ -1657,7 +1657,7 @@ tour-typography =
 tour-developer =
   .title = Herramientas para desarrolladores
   .description =
-    <p><strong>Inspecciona</strong> fácilmente<strong>el código SVG y CSS subyacente</strong> con el panel "Elementos" incorporado. El principio es el mismo que el de las herramientas para desarrolladores web disponibles en los navegadores más populares.</p>
+    <p><strong>Inspecciona</strong> fácilmente<strong> el código SVG y CSS subyacente</strong> con el panel "Elementos" incorporado. El principio es el mismo que el de las herramientas para desarrolladores web disponibles en los navegadores más populares.</p>
     <p>Puedes utilizar el panel "Elementos" para <strong>editar el código SVG y CSS in situ</strong>. El lienzo y el inspector de código están perfectamente sincronizados: al realizar un cambio en uno de ellos, el otro actualiza automáticamente su contenido.</p>
     <p>El inspector también permite copiar <strong>y pegar fragmentos de código SVG</strong> entre Boxy SVG y programas externos, como editores de texto.</p>
 tour-export =
@@ -1671,8 +1671,8 @@ tour-library =
   .title = Biblioteca de activos
   .description =
     <p>Accede a millones de <strong>fotos de archivo e ilustraciones v</strong> vectoriales de alta calidad de <a
-    rel="noopener" href="https://pixabay.com/">Pixabay</a>, a cientos de <strong>paletas de colores</strong>de <a rel="noopener" href="https://colorhunt.co/">ColorHunt</a> y a más de mil <strong>fuentes</strong> del directorio <a rel="noopener" href="https://fonts.google.com/">Google Fonts</a>.</p>
-    <p>¿Necesitas una fuente sans serif con caracteres del alfabeto griego o quizá todos los vectores con zapatos de la categoría "Deportes"? Busca una palabra clave para hacer una selección inicial y, a continuación, aplica un filtro rápido para acortar los resultados de la búsqueda. Una vez que hayas encontrado el recurso que te gusta, sólo tienes que <strong>arrastrarlo y soltarlo</strong>en el lienzo para utilizarlo.</p>
+    rel="noopener" href="https://pixabay.com/">Pixabay</a>, a cientos de <strong>paletas de colores</strong> de <a rel="noopener" href="https://colorhunt.co/">ColorHunt</a> y a más de mil <strong>fuentes</strong> del directorio <a rel="noopener" href="https://fonts.google.com/">Google Fonts</a>.</p>
+    <p>¿Necesitas una fuente sans serif con caracteres del alfabeto griego o quizá todos los vectores con zapatos de la categoría "Deportes"? Busca una palabra clave para hacer una selección inicial y, a continuación, aplica un filtro rápido para acortar los resultados de la búsqueda. Una vez que hayas encontrado el recurso que te gusta, sólo tienes que <strong>arrastrarlo y soltarlo</strong> en el lienzo para utilizarlo.</p>
     <p>Todos los activos se liberan bajo <strong>licencias permisivas</strong> y pueden utilizarse en proyectos comerciales libremente, sin pagar derechos de autor.</p>
 tour-tracing =
   .title = Rastreo de imágenes
@@ -1687,7 +1687,7 @@ tour-symbols =
     <p>Utilice el panel "Defs" para <strong>gestionar los símbolos SVG</strong>. Basta con uno o dos clics para crear y editar nuevos símbolos, renombrar sus ID y sus títulos.</p>
     <p>Arrastre y suelte un símbolo del panel "Defs" en el lienzo para crear su instancia. Todas las instancias de un símbolo se actualizarán automáticamente cuando cambie el original.</p>
     <p>Boxy SVG también es totalmente capaz de editar <strong>sprites SVG</strong> que se utilizan para almacenar conjuntos completos de iconos en la web. Para sprites realmente grandes puede utilizar la opción de filtro para localizar símbolos por sus nombres o ID.</p>
-    <p>El panel "Geometría" proporciona un control avanzado sobre la caja de vista <strong>y la</strong> ventana de vista de cada símbolo.</p>
+    <p>El panel "Geometría" proporciona un control avanzado sobre <strong>la caja de vista y la ventana de vista</strong> de cada símbolo.</p>
 transform = Transformar
 transform-gradient = Transformar degradado
 transform-pattern = Transformar patrón
