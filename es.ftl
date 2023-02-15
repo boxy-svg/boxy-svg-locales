@@ -1409,6 +1409,7 @@ roundness = Redondez
   .fixed = Fijo
 rows = Filas
 rule = Regla
+rulers = Reglas
 sample-from-image = Muestra de la imagen
 sampling = Muestreo
   .none = Ninguno

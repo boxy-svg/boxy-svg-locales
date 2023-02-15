@@ -1425,6 +1425,7 @@ roundness = Roundness
   .fixed = Fixed
 rows = Rows
 rule = Rule
+rulers = Rulers
 sample-from-image = Sample from image
 sampling = Sampling
   .none = None

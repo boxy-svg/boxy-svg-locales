@@ -1442,6 +1442,7 @@ roundness = Rundheit
   .fixed = Feste
 rows = Zeilen
 rule = Regel
+rulers = Lineale
 sample-from-image = Probieren aus dem Bild
 sampling = Beprobung
   .none = Keine

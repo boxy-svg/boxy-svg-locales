@@ -1445,6 +1445,7 @@ roundness = Krągłość
   .fixed = Stała
 rows = Rzędy
 rule = Reguła
+rulers = Linijki
 sample-from-image = Pobierz z obrazu
 sampling = Samplowanie
   .none = Brak
