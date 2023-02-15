@@ -1108,6 +1108,7 @@ luminance-to-alpha = Luminanz zu Alpha
 machine-translation = Maschinelle Übersetzung
 manage = Verwalten
 manage-your-subscription = Verwalten Ihr <strong>Abonnement</strong>
+manual-guide = @todo
 manual-guides = Manuelle Hilfslinien
 margin = Rand
 marker = Markierung

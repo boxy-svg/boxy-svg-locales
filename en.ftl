@@ -1102,6 +1102,7 @@ luminance-to-alpha = Luminance to alpha
 machine-translation = Machine translation
 manage = Manage
 manage-your-subscription = Manage your <strong>Subscription</strong>
+manual-guide = Manual guide
 manual-guides = Manual guides
 margin = Margin
 marker = Marker
